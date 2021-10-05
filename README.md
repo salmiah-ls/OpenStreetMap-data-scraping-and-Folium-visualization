@@ -1,7 +1,5 @@
-# Jakarta - Assessment of Hazard and its Impact to Public Facilities
+### Jakarta - Public Facilities and Hazards in the area
 
-Hello!
-
-This is my first repository for my GitHub lesson.
-
-Thank you.
+This repository contains:
+- dataset of public facilities in Jakarta (.csv file) 
+- some hazards that will affect the area
