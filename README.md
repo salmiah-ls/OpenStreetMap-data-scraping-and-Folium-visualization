@@ -1,5 +1,3 @@
-### Manila - Public Facilities and Hazards in the area
+### Data Scraping from OpenStreetMap (OSM) and Data Visualisation with Folium
 
-This repository contains:
-- dataset of public facilities in Manila (.csv file) 
-- some hazards that will affect the area
+In this repository, I will show some tutorials for collecting (scraping) data from OpenStreetMap (OSM) and visualise the data using Folium in Jupyter Notebook.
