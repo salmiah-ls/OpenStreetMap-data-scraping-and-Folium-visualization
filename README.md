@@ -10,4 +10,5 @@ I collect data of medical facilities (hospital, clinic, doctors, dentist, and ph
 ### List of doctors in Bali in OpenStreetMap (OSM)
 
 
-### Output
+### Preview of Output
+<img src=preview.gif>
