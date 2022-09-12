@@ -1,0 +1,4647 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2f1d7d5270562b3b957f8db9d74f76f3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_2f1d7d5270562b3b957f8db9d74f76f3" ></div>
+        
+</body>
+<script>    
+    
+            var map_2f1d7d5270562b3b957f8db9d74f76f3 = L.map(
+                "map_2f1d7d5270562b3b957f8db9d74f76f3",
+                {
+                    center: [-8.455, 115.09],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_dd8e85345f05fe11c21b0297dc892599 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_2f1d7d5270562b3b957f8db9d74f76f3);
+        
+    
+            var feature_group_ec5470b9b906cabc32ec448390b9c4e1 = L.featureGroup(
+                {}
+            ).addTo(map_2f1d7d5270562b3b957f8db9d74f76f3);
+        
+    
+            var marker_c7e6e3fed5c984ab4617ed9cb4c4013f = L.marker(
+                [-8.6910023, 115.1647664],
+                {}
+            ).addTo(feature_group_ec5470b9b906cabc32ec448390b9c4e1);
+        
+    
+            var icon_a1dec421d0d7c15489ef9bc86d21a47b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_c7e6e3fed5c984ab4617ed9cb4c4013f.setIcon(icon_a1dec421d0d7c15489ef9bc86d21a47b);
+        
+    
+            marker_c7e6e3fed5c984ab4617ed9cb4c4013f.bindTooltip(
+                `<div>
+                     Bhakti Vedanta Medical
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a891b8cef994c1cadcc6b01739eb8a45 = L.marker(
+                [-8.6880809, 115.1674925],
+                {}
+            ).addTo(feature_group_ec5470b9b906cabc32ec448390b9c4e1);
+        
+    
+            var icon_5bb9205c1ee110d855b112064866e042 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_a891b8cef994c1cadcc6b01739eb8a45.setIcon(icon_5bb9205c1ee110d855b112064866e042);
+        
+    
+            marker_a891b8cef994c1cadcc6b01739eb8a45.bindTooltip(
+                `<div>
+                     Body Lab Slimming Spa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_48430c745b7c34e03d3032233ab6bf7f = L.marker(
+                [-8.6878283, 115.4373897],
+                {}
+            ).addTo(feature_group_ec5470b9b906cabc32ec448390b9c4e1);
+        
+    
+            var icon_98d27c0343f2646290fe7bdc4e3855f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_48430c745b7c34e03d3032233ab6bf7f.setIcon(icon_98d27c0343f2646290fe7bdc4e3855f9);
+        
+    
+            marker_48430c745b7c34e03d3032233ab6bf7f.bindTooltip(
+                `<div>
+                     East Medical Care Center
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7e338038dd3a339d790c1bc85c288340 = L.marker(
+                [-8.6735226, 115.2385835],
+                {}
+            ).addTo(feature_group_ec5470b9b906cabc32ec448390b9c4e1);
+        
+    
+            var icon_db3fb5994ec34f7f725120a6ed078b13 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_7e338038dd3a339d790c1bc85c288340.setIcon(icon_db3fb5994ec34f7f725120a6ed078b13);
+        
+    
+            marker_7e338038dd3a339d790c1bc85c288340.bindTooltip(
+                `<div>
+                     Erha Clinic
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c34e393d2972c5fcce8150e4be2458f7 = L.marker(
+                [-8.6848155, 115.215697],
+                {}
+            ).addTo(feature_group_ec5470b9b906cabc32ec448390b9c4e1);
+        
+    
+            var icon_01bcb6f510a7f1c54f8a73d70b4e75bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_c34e393d2972c5fcce8150e4be2458f7.setIcon(icon_01bcb6f510a7f1c54f8a73d70b4e75bd);
+        
+    
+            marker_c34e393d2972c5fcce8150e4be2458f7.bindTooltip(
+                `<div>
+                     Karya Prima
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6af1a40c2120cc8b4d2cb633f6fff4e0 = L.marker(
+                [-8.639982, 115.1518346],
+                {}
+            ).addTo(feature_group_ec5470b9b906cabc32ec448390b9c4e1);
+        
+    
+            var icon_cff119fcbf88dc3697658a5c9cf7e767 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_6af1a40c2120cc8b4d2cb633f6fff4e0.setIcon(icon_cff119fcbf88dc3697658a5c9cf7e767);
+        
+    
+            marker_6af1a40c2120cc8b4d2cb633f6fff4e0.bindTooltip(
+                `<div>
+                     Klinik Adi Medica
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_612bb42f7768a44e954c5df0c25d0d00 = L.marker(
+                [-8.7295856, 115.1770714],
+                {}
+            ).addTo(feature_group_ec5470b9b906cabc32ec448390b9c4e1);
+        
+    
+            var icon_6d4e591d5bf140dfabc5e6e337859cf9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_612bb42f7768a44e954c5df0c25d0d00.setIcon(icon_6d4e591d5bf140dfabc5e6e337859cf9);
+        
+    
+            marker_612bb42f7768a44e954c5df0c25d0d00.bindTooltip(
+                `<div>
+                     Klinik Manuaba
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_19f6bf4177e26c98f6eca54fd7c198b1 = L.marker(
+                [-8.7411297, 115.1786158],
+                {}
+            ).addTo(feature_group_ec5470b9b906cabc32ec448390b9c4e1);
+        
+    
+            var icon_09f92e2f6d59f853a7bd983ab6cc8dce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_19f6bf4177e26c98f6eca54fd7c198b1.setIcon(icon_09f92e2f6d59f853a7bd983ab6cc8dce);
+        
+    
+            marker_19f6bf4177e26c98f6eca54fd7c198b1.bindTooltip(
+                `<div>
+                     Klinik Tiara Husada
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cd79eb705e561c6e602785be7ad5552f = L.marker(
+                [-8.6718265, 115.2152889],
+                {}
+            ).addTo(feature_group_ec5470b9b906cabc32ec448390b9c4e1);
+        
+    
+            var icon_1fcb8dbe62f3abaed7dcca5a439b912d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_cd79eb705e561c6e602785be7ad5552f.setIcon(icon_1fcb8dbe62f3abaed7dcca5a439b912d);
+        
+    
+            marker_cd79eb705e561c6e602785be7ad5552f.bindTooltip(
+                `<div>
+                     Laboratorium Klinik Prodia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4950da7ba5ad3e517bf57aabcf624cca = L.marker(
+                [-8.7119366, 115.1728269],
+                {}
+            ).addTo(feature_group_ec5470b9b906cabc32ec448390b9c4e1);
+        
+    
+            var icon_2adea4a523307379f19df5e00d593211 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_4950da7ba5ad3e517bf57aabcf624cca.setIcon(icon_2adea4a523307379f19df5e00d593211);
+        
+    
+            marker_4950da7ba5ad3e517bf57aabcf624cca.bindTooltip(
+                `<div>
+                     Legian Clinic
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3a27a1c2746fc43994c84889c884459b = L.marker(
+                [-8.7092845, 115.1840666],
+                {}
+            ).addTo(feature_group_ec5470b9b906cabc32ec448390b9c4e1);
+        
+    
+            var icon_f9d0520d551b1fd42b9e01c6ae084698 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_3a27a1c2746fc43994c84889c884459b.setIcon(icon_f9d0520d551b1fd42b9e01c6ae084698);
+        
+    
+            marker_3a27a1c2746fc43994c84889c884459b.bindTooltip(
+                `<div>
+                     Natasha Skin Clinic Center - Kuta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f11c562c5fe478d62a30c0d48b2198a5 = L.marker(
+                [-8.6792267, 115.1536083],
+                {}
+            ).addTo(feature_group_ec5470b9b906cabc32ec448390b9c4e1);
+        
+    
+            var icon_197446837df5f94b9bf938469477aa1b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_f11c562c5fe478d62a30c0d48b2198a5.setIcon(icon_197446837df5f94b9bf938469477aa1b);
+        
+    
+            marker_f11c562c5fe478d62a30c0d48b2198a5.bindTooltip(
+                `<div>
+                     Omsa Medic Seminyak
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0a081a1c70107ad8d2ac86d34d44cfad = L.marker(
+                [-8.700402, 115.1660579],
+                {}
+            ).addTo(feature_group_ec5470b9b906cabc32ec448390b9c4e1);
+        
+    
+            var icon_45362fd64a99cd1a5f7e32c8af268dfa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_0a081a1c70107ad8d2ac86d34d44cfad.setIcon(icon_45362fd64a99cd1a5f7e32c8af268dfa);
+        
+    
+            marker_0a081a1c70107ad8d2ac86d34d44cfad.bindTooltip(
+                `<div>
+                     Padma Medical
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_49429a80c6a504823978198bedb8c5b5 = L.marker(
+                [-8.6812842, 115.1905897],
+                {}
+            ).addTo(feature_group_ec5470b9b906cabc32ec448390b9c4e1);
+        
+    
+            var icon_1838057f25c98e7cacf1c18c75d687b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_49429a80c6a504823978198bedb8c5b5.setIcon(icon_1838057f25c98e7cacf1c18c75d687b3);
+        
+    
+            marker_49429a80c6a504823978198bedb8c5b5.bindTooltip(
+                `<div>
+                     Pertamedica clinic
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1cb6e275b4d9740a54276b30b385af9e = L.marker(
+                [-8.4388335, 115.6455491],
+                {}
+            ).addTo(feature_group_ec5470b9b906cabc32ec448390b9c4e1);
+        
+    
+            var icon_dc74be9419f94a726c0f214f0a0f0362 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_1cb6e275b4d9740a54276b30b385af9e.setIcon(icon_dc74be9419f94a726c0f214f0a0f0362);
+        
+    
+            marker_1cb6e275b4d9740a54276b30b385af9e.bindTooltip(
+                `<div>
+                     Polindes Seraya Barat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_efd951d82683498e72318e980855b3cd = L.marker(
+                [-8.4387687, 115.6455003],
+                {}
+            ).addTo(feature_group_ec5470b9b906cabc32ec448390b9c4e1);
+        
+    
+            var icon_7a9a642a868543c272a3ec9daee7115a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_efd951d82683498e72318e980855b3cd.setIcon(icon_7a9a642a868543c272a3ec9daee7115a);
+        
+    
+            marker_efd951d82683498e72318e980855b3cd.bindTooltip(
+                `<div>
+                     Polindes Seraya Barat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ad9de1b087a3fff19834fccd840e0073 = L.marker(
+                [-8.1910116, 115.4720588],
+                {}
+            ).addTo(feature_group_ec5470b9b906cabc32ec448390b9c4e1);
+        
+    
+            var icon_b4f7e733f532e116b4b0156d5fe9a3a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_ad9de1b087a3fff19834fccd840e0073.setIcon(icon_b4f7e733f532e116b4b0156d5fe9a3a6);
+        
+    
+            marker_ad9de1b087a3fff19834fccd840e0073.bindTooltip(
+                `<div>
+                     Praktek Bidan PTT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b67b4604d933090365a3555cf15854df = L.marker(
+                [-8.4191232, 115.3090153],
+                {}
+            ).addTo(feature_group_ec5470b9b906cabc32ec448390b9c4e1);
+        
+    
+            var icon_dfbc923d37ec11f075b35de64e373eea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_b67b4604d933090365a3555cf15854df.setIcon(icon_dfbc923d37ec11f075b35de64e373eea);
+        
+    
+            marker_b67b4604d933090365a3555cf15854df.bindTooltip(
+                `<div>
+                     Puskesmas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6181c8df42a93e7e142e13bf56aa2605 = L.marker(
+                [-8.7473943, 115.5071087],
+                {}
+            ).addTo(feature_group_ec5470b9b906cabc32ec448390b9c4e1);
+        
+    
+            var icon_7b2e968aab73f3d02f469a60b0bd119a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_6181c8df42a93e7e142e13bf56aa2605.setIcon(icon_7b2e968aab73f3d02f469a60b0bd119a);
+        
+    
+            marker_6181c8df42a93e7e142e13bf56aa2605.bindTooltip(
+                `<div>
+                     Puskesmas Pembantu Desa Batu Madeg
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ed7990830e3acd334c9ebf44c14ab00e = L.marker(
+                [-8.4548294, 115.6010055],
+                {}
+            ).addTo(feature_group_ec5470b9b906cabc32ec448390b9c4e1);
+        
+    
+            var icon_db680851a99fa5fe20a9d6c4e9ee17ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_ed7990830e3acd334c9ebf44c14ab00e.setIcon(icon_db680851a99fa5fe20a9d6c4e9ee17ab);
+        
+    
+            marker_ed7990830e3acd334c9ebf44c14ab00e.bindTooltip(
+                `<div>
+                     Puskesmas Pembantu Subagan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9ee86c9a44a7aab15b216ffe5f735711 = L.marker(
+                [-8.7841529, 115.1660573],
+                {}
+            ).addTo(feature_group_ec5470b9b906cabc32ec448390b9c4e1);
+        
+    
+            var icon_71cca8348682c6a14e69587237a3e061 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_9ee86c9a44a7aab15b216ffe5f735711.setIcon(icon_71cca8348682c6a14e69587237a3e061);
+        
+    
+            marker_9ee86c9a44a7aab15b216ffe5f735711.bindTooltip(
+                `<div>
+                     SOS Clinic
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2f7eb92b8fbd8fe618b5500ec0028596 = L.marker(
+                [-8.6902108, 115.1618611],
+                {}
+            ).addTo(feature_group_ec5470b9b906cabc32ec448390b9c4e1);
+        
+    
+            var icon_53bf233d05309666bb9ab2d5e5fd52c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_2f7eb92b8fbd8fe618b5500ec0028596.setIcon(icon_53bf233d05309666bb9ab2d5e5fd52c5);
+        
+    
+            marker_2f7eb92b8fbd8fe618b5500ec0028596.bindTooltip(
+                `<div>
+                     Sos Medical Seminyak
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1f8e31cd22cbb7fdbdbfdfa32addd863 = L.marker(
+                [-8.7000432, 115.1804161],
+                {}
+            ).addTo(feature_group_ec5470b9b906cabc32ec448390b9c4e1);
+        
+    
+            var icon_7b003b00726bf7ef57de8fb949e269bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_1f8e31cd22cbb7fdbdbfdfa32addd863.setIcon(icon_7b003b00726bf7ef57de8fb949e269bf);
+        
+    
+            marker_1f8e31cd22cbb7fdbdbfdfa32addd863.bindTooltip(
+                `<div>
+                     Sunset Vet Legian
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9dd9938b671873ead868ab2e79dcc60c = L.marker(
+                [-8.641007, 115.1350133],
+                {}
+            ).addTo(feature_group_ec5470b9b906cabc32ec448390b9c4e1);
+        
+    
+            var icon_ab36e97dc30250121141fd69b8efba48 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_9dd9938b671873ead868ab2e79dcc60c.setIcon(icon_ab36e97dc30250121141fd69b8efba48);
+        
+    
+            marker_9dd9938b671873ead868ab2e79dcc60c.bindTooltip(
+                `<div>
+                     The Bali Physio - Pererenan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_58cbce9ffc54a7b99d6ba00e62049b17 = L.marker(
+                [-8.4888188, 115.2698181],
+                {}
+            ).addTo(feature_group_ec5470b9b906cabc32ec448390b9c4e1);
+        
+    
+            var icon_7f13d080bd4f9eccc04ef63304d7af9d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_58cbce9ffc54a7b99d6ba00e62049b17.setIcon(icon_7f13d080bd4f9eccc04ef63304d7af9d);
+        
+    
+            marker_58cbce9ffc54a7b99d6ba00e62049b17.bindTooltip(
+                `<div>
+                     Toya Medical Clinic
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4d44e49515e619431055ca0f803b001b = L.marker(
+                [-8.7951938, 115.1857098],
+                {}
+            ).addTo(feature_group_ec5470b9b906cabc32ec448390b9c4e1);
+        
+    
+            var icon_1811b371c315bdc178f67fe07acd86ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_4d44e49515e619431055ca0f803b001b.setIcon(icon_1811b371c315bdc178f67fe07acd86ab);
+        
+    
+            marker_4d44e49515e619431055ca0f803b001b.bindTooltip(
+                `<div>
+                     Udayana Veterinary Clinic
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_80a6de1b32bca8fceab5bda59bcd49fc = L.marker(
+                [-8.2953139, 115.225855],
+                {}
+            ).addTo(feature_group_ec5470b9b906cabc32ec448390b9c4e1);
+        
+    
+            var icon_0159d5ba6c001ff07f97d07f6fd70136 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_80a6de1b32bca8fceab5bda59bcd49fc.setIcon(icon_0159d5ba6c001ff07f97d07f6fd70136);
+        
+    
+            marker_80a6de1b32bca8fceab5bda59bcd49fc.bindTooltip(
+                `<div>
+                     puskesmas petang II
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_165306294947d69acdd36ec3953b4359 = L.marker(
+                [-8.4455873, 115.5856753],
+                {}
+            ).addTo(feature_group_ec5470b9b906cabc32ec448390b9c4e1);
+        
+    
+            var icon_1193d40bade451733d2ab88636610017 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_165306294947d69acdd36ec3953b4359.setIcon(icon_1193d40bade451733d2ab88636610017);
+        
+    
+            marker_165306294947d69acdd36ec3953b4359.bindTooltip(
+                `<div>
+                     clinic
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fefb7cbc6e82c694d11df7ef21c9fe09 = L.marker(
+                [-8.4454503, 115.5855793],
+                {}
+            ).addTo(feature_group_ec5470b9b906cabc32ec448390b9c4e1);
+        
+    
+            var icon_25fc2f184748a051094a69adfa5970d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_fefb7cbc6e82c694d11df7ef21c9fe09.setIcon(icon_25fc2f184748a051094a69adfa5970d8);
+        
+    
+            marker_fefb7cbc6e82c694d11df7ef21c9fe09.bindTooltip(
+                `<div>
+                     clinic
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b945f1e1b5b6ec688d332535347f0d45 = L.marker(
+                [-8.6783565, 115.1605426],
+                {}
+            ).addTo(feature_group_ec5470b9b906cabc32ec448390b9c4e1);
+        
+    
+            var icon_61941cf2f4f935ead8e13cdec6824bba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_b945f1e1b5b6ec688d332535347f0d45.setIcon(icon_61941cf2f4f935ead8e13cdec6824bba);
+        
+    
+            marker_b945f1e1b5b6ec688d332535347f0d45.bindTooltip(
+                `<div>
+                     clinic
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c85b483dda984cec48f12d03719d676e = L.marker(
+                [-8.5233608, 115.263484],
+                {}
+            ).addTo(feature_group_ec5470b9b906cabc32ec448390b9c4e1);
+        
+    
+            var icon_db06957b29244e2f6bcc4a255994440a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_c85b483dda984cec48f12d03719d676e.setIcon(icon_db06957b29244e2f6bcc4a255994440a);
+        
+    
+            marker_c85b483dda984cec48f12d03719d676e.bindTooltip(
+                `<div>
+                     clinic
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_158b277d06d98165034305ed80600d64 = L.marker(
+                [-8.8305498, 115.1329427],
+                {}
+            ).addTo(feature_group_ec5470b9b906cabc32ec448390b9c4e1);
+        
+    
+            var icon_3b8f339e89237e21a638449558f212eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_158b277d06d98165034305ed80600d64.setIcon(icon_3b8f339e89237e21a638449558f212eb);
+        
+    
+            marker_158b277d06d98165034305ed80600d64.bindTooltip(
+                `<div>
+                     clinic
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7c15cdb16042f82c879c653076cedfe0 = L.marker(
+                [-8.5222439, 115.2548832],
+                {}
+            ).addTo(feature_group_ec5470b9b906cabc32ec448390b9c4e1);
+        
+    
+            var icon_95c2353139e69adc3080bf68c3ea1a8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_7c15cdb16042f82c879c653076cedfe0.setIcon(icon_95c2353139e69adc3080bf68c3ea1a8c);
+        
+    
+            marker_7c15cdb16042f82c879c653076cedfe0.bindTooltip(
+                `<div>
+                     clinic
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dddd1126b2de853aca03b4fabf43d85c = L.marker(
+                [-8.6655916, 115.1598494],
+                {}
+            ).addTo(feature_group_ec5470b9b906cabc32ec448390b9c4e1);
+        
+    
+            var icon_4ee3c8e2e4c5f3e31a290cecf5605279 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_dddd1126b2de853aca03b4fabf43d85c.setIcon(icon_4ee3c8e2e4c5f3e31a290cecf5605279);
+        
+    
+            marker_dddd1126b2de853aca03b4fabf43d85c.bindTooltip(
+                `<div>
+                     clinic
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_00bf9b00e37a60721f1d7b16e3977e3d = L.marker(
+                [-8.5137374, 115.2678348],
+                {}
+            ).addTo(feature_group_ec5470b9b906cabc32ec448390b9c4e1);
+        
+    
+            var icon_c41236ccbb94b7b1f752835fdff0dfde = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_00bf9b00e37a60721f1d7b16e3977e3d.setIcon(icon_c41236ccbb94b7b1f752835fdff0dfde);
+        
+    
+            marker_00bf9b00e37a60721f1d7b16e3977e3d.bindTooltip(
+                `<div>
+                     clinic
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1dc1a41dd226958e437d6bf2e1552e25 = L.marker(
+                [-8.5239427, 115.2693568],
+                {}
+            ).addTo(feature_group_ec5470b9b906cabc32ec448390b9c4e1);
+        
+    
+            var icon_1d062a3064a19db198a16e6325836445 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_1dc1a41dd226958e437d6bf2e1552e25.setIcon(icon_1d062a3064a19db198a16e6325836445);
+        
+    
+            marker_1dc1a41dd226958e437d6bf2e1552e25.bindTooltip(
+                `<div>
+                     clinic
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_46d846f00bfb802725fe9cd2613a6208 = L.marker(
+                [-8.6761636, 115.4916731],
+                {}
+            ).addTo(feature_group_ec5470b9b906cabc32ec448390b9c4e1);
+        
+    
+            var icon_f349341ecf0dd49b4a333feeffba2913 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_46d846f00bfb802725fe9cd2613a6208.setIcon(icon_f349341ecf0dd49b4a333feeffba2913);
+        
+    
+            marker_46d846f00bfb802725fe9cd2613a6208.bindTooltip(
+                `<div>
+                     clinic
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_83c3b141239c6905797c82d0de9909f6 = L.featureGroup(
+                {}
+            ).addTo(map_2f1d7d5270562b3b957f8db9d74f76f3);
+        
+    
+            var marker_ea83d758f70062964850955fc7492cdc = L.marker(
+                [-8.523299, 115.2682069],
+                {}
+            ).addTo(feature_group_83c3b141239c6905797c82d0de9909f6);
+        
+    
+            var icon_e987285387cc614cc66a60a87a980a74 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_ea83d758f70062964850955fc7492cdc.setIcon(icon_e987285387cc614cc66a60a87a980a74);
+        
+    
+            marker_ea83d758f70062964850955fc7492cdc.bindTooltip(
+                `<div>
+                     Ari Dental
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ffc7bc3ac4d635e233892aee36525205 = L.marker(
+                [-8.6703403, 115.2143406],
+                {}
+            ).addTo(feature_group_83c3b141239c6905797c82d0de9909f6);
+        
+    
+            var icon_2e63f44db001638f3198fecac693df4a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_ffc7bc3ac4d635e233892aee36525205.setIcon(icon_2e63f44db001638f3198fecac693df4a);
+        
+    
+            marker_ffc7bc3ac4d635e233892aee36525205.bindTooltip(
+                `<div>
+                     Bali International Dental Center
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8387d94525c77f8a4067a3edfbd959e6 = L.marker(
+                [-8.6840428, 115.1576529],
+                {}
+            ).addTo(feature_group_83c3b141239c6905797c82d0de9909f6);
+        
+    
+            var icon_c52e9000dcf048ab36372db069cbdfee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_8387d94525c77f8a4067a3edfbd959e6.setIcon(icon_c52e9000dcf048ab36372db069cbdfee);
+        
+    
+            marker_8387d94525c77f8a4067a3edfbd959e6.bindTooltip(
+                `<div>
+                     Teeth Whitening Kayu Aya
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4f9e4e23c0a09b912b3d98e795d6398a = L.marker(
+                [-8.6621473, 115.214921],
+                {}
+            ).addTo(feature_group_83c3b141239c6905797c82d0de9909f6);
+        
+    
+            var icon_0e47da6bc56ebb6b9e09bde62739329c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_4f9e4e23c0a09b912b3d98e795d6398a.setIcon(icon_0e47da6bc56ebb6b9e09bde62739329c);
+        
+    
+            marker_4f9e4e23c0a09b912b3d98e795d6398a.bindTooltip(
+                `<div>
+                     dentist
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5d8e6c7812c1c0bc0f36286f18ad5001 = L.marker(
+                [-8.1830305, 114.7591932],
+                {}
+            ).addTo(feature_group_83c3b141239c6905797c82d0de9909f6);
+        
+    
+            var icon_e59b7395ef4702ae3289fc19cdf80f92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_5d8e6c7812c1c0bc0f36286f18ad5001.setIcon(icon_e59b7395ef4702ae3289fc19cdf80f92);
+        
+    
+            marker_5d8e6c7812c1c0bc0f36286f18ad5001.bindTooltip(
+                `<div>
+                     dentist
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5a734295a9b6404cdda90caf95cf93bc = L.marker(
+                [-8.6825307, 115.2590662],
+                {}
+            ).addTo(feature_group_83c3b141239c6905797c82d0de9909f6);
+        
+    
+            var icon_8008b89ce5841fd349c96502a281beeb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_5a734295a9b6404cdda90caf95cf93bc.setIcon(icon_8008b89ce5841fd349c96502a281beeb);
+        
+    
+            marker_5a734295a9b6404cdda90caf95cf93bc.bindTooltip(
+                `<div>
+                     dentist
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_408a8cad63149b4f6269c11df01716af = L.marker(
+                [-8.7143436, 115.1865969],
+                {}
+            ).addTo(feature_group_83c3b141239c6905797c82d0de9909f6);
+        
+    
+            var icon_0c5ec4a012528f8f37d721ac4841dac5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_408a8cad63149b4f6269c11df01716af.setIcon(icon_0c5ec4a012528f8f37d721ac4841dac5);
+        
+    
+            marker_408a8cad63149b4f6269c11df01716af.bindTooltip(
+                `<div>
+                     dentist
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c1901a28b45c7915c2ad787839689a14 = L.marker(
+                [-8.6491526, 115.2179387],
+                {}
+            ).addTo(feature_group_83c3b141239c6905797c82d0de9909f6);
+        
+    
+            var icon_100101779204d04dcad711e28cb53b05 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_c1901a28b45c7915c2ad787839689a14.setIcon(icon_100101779204d04dcad711e28cb53b05);
+        
+    
+            marker_c1901a28b45c7915c2ad787839689a14.bindTooltip(
+                `<div>
+                     dentist
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_484634e2151162a111a06aeae521a7ca = L.marker(
+                [-8.7246537, 115.1743105],
+                {}
+            ).addTo(feature_group_83c3b141239c6905797c82d0de9909f6);
+        
+    
+            var icon_379f15f0b45e8dc9f6d5fe091b43c635 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_484634e2151162a111a06aeae521a7ca.setIcon(icon_379f15f0b45e8dc9f6d5fe091b43c635);
+        
+    
+            marker_484634e2151162a111a06aeae521a7ca.bindTooltip(
+                `<div>
+                     dentist
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_52fca511166246b6f8bd425c26321123 = L.marker(
+                [-8.7101898, 115.1768996],
+                {}
+            ).addTo(feature_group_83c3b141239c6905797c82d0de9909f6);
+        
+    
+            var icon_ec19a9d062a6623acbaf8a506ed180f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_52fca511166246b6f8bd425c26321123.setIcon(icon_ec19a9d062a6623acbaf8a506ed180f4);
+        
+    
+            marker_52fca511166246b6f8bd425c26321123.bindTooltip(
+                `<div>
+                     dentist
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_d6c0d7a101581a2f95e3f2e1e1dd240d = L.featureGroup(
+                {}
+            ).addTo(map_2f1d7d5270562b3b957f8db9d74f76f3);
+        
+    
+            var marker_b95ab11eb9e258dc5f2826884af61882 = L.marker(
+                [-8.674071, 115.2604138],
+                {}
+            ).addTo(feature_group_d6c0d7a101581a2f95e3f2e1e1dd240d);
+        
+    
+            var icon_b683e56bd9ffa389955c1ceab30f7d01 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_b95ab11eb9e258dc5f2826884af61882.setIcon(icon_b683e56bd9ffa389955c1ceab30f7d01);
+        
+    
+            marker_b95ab11eb9e258dc5f2826884af61882.bindTooltip(
+                `<div>
+                     Haryoga
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6600f24bdfd2e55d16c15496415e30be = L.marker(
+                [-8.2735063, 115.5887971],
+                {}
+            ).addTo(feature_group_d6c0d7a101581a2f95e3f2e1e1dd240d);
+        
+    
+            var icon_e8b823b067edaaa3f4bdfcab6ae1ae9b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_6600f24bdfd2e55d16c15496415e30be.setIcon(icon_e8b823b067edaaa3f4bdfcab6ae1ae9b);
+        
+    
+            marker_6600f24bdfd2e55d16c15496415e30be.bindTooltip(
+                `<div>
+                     Praktik Dokter Jam Buka
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c35434180432fcf44f76971208f853fd = L.marker(
+                [-8.6681501, 115.1467474],
+                {}
+            ).addTo(feature_group_d6c0d7a101581a2f95e3f2e1e1dd240d);
+        
+    
+            var icon_bccc24349eaf1d015067240830a614d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_c35434180432fcf44f76971208f853fd.setIcon(icon_bccc24349eaf1d015067240830a614d8);
+        
+    
+            marker_c35434180432fcf44f76971208f853fd.bindTooltip(
+                `<div>
+                     Prime plus medical
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ab4fa71ff78d4513e0633072143813ba = L.marker(
+                [-8.6382462, 115.1490883],
+                {}
+            ).addTo(feature_group_d6c0d7a101581a2f95e3f2e1e1dd240d);
+        
+    
+            var icon_b5d37aba7c46f23ef51d3642303784e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_ab4fa71ff78d4513e0633072143813ba.setIcon(icon_b5d37aba7c46f23ef51d3642303784e8);
+        
+    
+            marker_ab4fa71ff78d4513e0633072143813ba.bindTooltip(
+                `<div>
+                     bali med
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c21c9349e28eae2d77a5f3e3cb243a6e = L.marker(
+                [-8.6355937, 115.2209443],
+                {}
+            ).addTo(feature_group_d6c0d7a101581a2f95e3f2e1e1dd240d);
+        
+    
+            var icon_d4d348db5ba8f4192552295ae6d09adf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_c21c9349e28eae2d77a5f3e3cb243a6e.setIcon(icon_d4d348db5ba8f4192552295ae6d09adf);
+        
+    
+            marker_c21c9349e28eae2d77a5f3e3cb243a6e.bindTooltip(
+                `<div>
+                     doctors
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5693c7e91e4d3669af0c3ed4ff709d0b = L.marker(
+                [-8.7997226, 115.1525384],
+                {}
+            ).addTo(feature_group_d6c0d7a101581a2f95e3f2e1e1dd240d);
+        
+    
+            var icon_dc789dfb3cdccab710693e1826db4e71 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_5693c7e91e4d3669af0c3ed4ff709d0b.setIcon(icon_dc789dfb3cdccab710693e1826db4e71);
+        
+    
+            marker_5693c7e91e4d3669af0c3ed4ff709d0b.bindTooltip(
+                `<div>
+                     doctors
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ab54470cb0b6b902babf3b0334f4063c = L.marker(
+                [-8.6884902, 115.4384666],
+                {}
+            ).addTo(feature_group_d6c0d7a101581a2f95e3f2e1e1dd240d);
+        
+    
+            var icon_e8b2cc7eeb6fc654fef953519c60faff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_ab54470cb0b6b902babf3b0334f4063c.setIcon(icon_e8b2cc7eeb6fc654fef953519c60faff);
+        
+    
+            marker_ab54470cb0b6b902babf3b0334f4063c.bindTooltip(
+                `<div>
+                     doctors
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6cf6ca96c04b796b66aa497e95e36d5a = L.marker(
+                [-8.6407214, 115.143154],
+                {}
+            ).addTo(feature_group_d6c0d7a101581a2f95e3f2e1e1dd240d);
+        
+    
+            var icon_c3f41237a1c24c0630bb5f7f09adf628 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_6cf6ca96c04b796b66aa497e95e36d5a.setIcon(icon_c3f41237a1c24c0630bb5f7f09adf628);
+        
+    
+            marker_6cf6ca96c04b796b66aa497e95e36d5a.bindTooltip(
+                `<div>
+                     doctors
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a3dee24f710361bde805cc92a6959802 = L.marker(
+                [-8.835169, 115.1677526],
+                {}
+            ).addTo(feature_group_d6c0d7a101581a2f95e3f2e1e1dd240d);
+        
+    
+            var icon_e2dea00c6ed6cc8b196539135e78d960 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_a3dee24f710361bde805cc92a6959802.setIcon(icon_e2dea00c6ed6cc8b196539135e78d960);
+        
+    
+            marker_a3dee24f710361bde805cc92a6959802.bindTooltip(
+                `<div>
+                     doctors
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_264c868ffd5c456286d963b78e3d450e = L.marker(
+                [-8.543648, 115.3226931],
+                {}
+            ).addTo(feature_group_d6c0d7a101581a2f95e3f2e1e1dd240d);
+        
+    
+            var icon_e33a6bdd4f01f14093b5f36df317dc69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_264c868ffd5c456286d963b78e3d450e.setIcon(icon_e33a6bdd4f01f14093b5f36df317dc69);
+        
+    
+            marker_264c868ffd5c456286d963b78e3d450e.bindTooltip(
+                `<div>
+                     doctors
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b48775d1a3fa37461d4f58d0d1e79b22 = L.marker(
+                [-8.6688105, 115.1467899],
+                {}
+            ).addTo(feature_group_d6c0d7a101581a2f95e3f2e1e1dd240d);
+        
+    
+            var icon_1b61be0422f8d85fa24408ce00238f35 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_b48775d1a3fa37461d4f58d0d1e79b22.setIcon(icon_1b61be0422f8d85fa24408ce00238f35);
+        
+    
+            marker_b48775d1a3fa37461d4f58d0d1e79b22.bindTooltip(
+                `<div>
+                     doctors
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_db6c7d6d1c350f557816ab14eb36cf82 = L.marker(
+                [-8.5240174, 115.269633],
+                {}
+            ).addTo(feature_group_d6c0d7a101581a2f95e3f2e1e1dd240d);
+        
+    
+            var icon_eaf32e63fc0035b747ab26523bb7b404 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_db6c7d6d1c350f557816ab14eb36cf82.setIcon(icon_eaf32e63fc0035b747ab26523bb7b404);
+        
+    
+            marker_db6c7d6d1c350f557816ab14eb36cf82.bindTooltip(
+                `<div>
+                     doctors
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7232aaa5e4f36b21f7efc54ba36d9f08 = L.marker(
+                [-8.5088338, 115.2677872],
+                {}
+            ).addTo(feature_group_d6c0d7a101581a2f95e3f2e1e1dd240d);
+        
+    
+            var icon_01ee6ba33f1a02b802490249b53e9f1c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_7232aaa5e4f36b21f7efc54ba36d9f08.setIcon(icon_01ee6ba33f1a02b802490249b53e9f1c);
+        
+    
+            marker_7232aaa5e4f36b21f7efc54ba36d9f08.bindTooltip(
+                `<div>
+                     doctors
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_2d5607b00dcd696edf34036641561bd6 = L.featureGroup(
+                {}
+            ).addTo(map_2f1d7d5270562b3b957f8db9d74f76f3);
+        
+    
+            var marker_f761a7e30af336c058f10bb1cd0f8a9e = L.marker(
+                [-8.487599, 115.2538212],
+                {}
+            ).addTo(feature_group_2d5607b00dcd696edf34036641561bd6);
+        
+    
+            var icon_f1684b8b4a71bd2edf1f2d461c88ffb9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_f761a7e30af336c058f10bb1cd0f8a9e.setIcon(icon_f1684b8b4a71bd2edf1f2d461c88ffb9);
+        
+    
+            marker_f761a7e30af336c058f10bb1cd0f8a9e.bindTooltip(
+                `<div>
+                     BIMC Ubud
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5a39986090379801530e18d3b64a5923 = L.marker(
+                [-8.6684209, 115.2278393],
+                {}
+            ).addTo(feature_group_2d5607b00dcd696edf34036641561bd6);
+        
+    
+            var icon_5e878a09f325e2514bf2ae452aa8d88a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_5a39986090379801530e18d3b64a5923.setIcon(icon_5e878a09f325e2514bf2ae452aa8d88a);
+        
+    
+            marker_5a39986090379801530e18d3b64a5923.bindTooltip(
+                `<div>
+                     Bali Royal Hospital
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f6c50b0a50ed8f8e68ffa871d67e3ed9 = L.marker(
+                [-8.5708354, 115.2213505],
+                {}
+            ).addTo(feature_group_2d5607b00dcd696edf34036641561bd6);
+        
+    
+            var icon_5e9e9c1acbd84ed4e1f07cdf238edbb9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_f6c50b0a50ed8f8e68ffa871d67e3ed9.setIcon(icon_5e9e9c1acbd84ed4e1f07cdf238edbb9);
+        
+    
+            marker_f6c50b0a50ed8f8e68ffa871d67e3ed9.bindTooltip(
+                `<div>
+                     Bidan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_645219f5ee90176774e932c97068f16d = L.marker(
+                [-8.7216974, 115.1914124],
+                {}
+            ).addTo(feature_group_2d5607b00dcd696edf34036641561bd6);
+        
+    
+            var icon_19b955282d0e08b6b5767f030592bf70 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_645219f5ee90176774e932c97068f16d.setIcon(icon_19b955282d0e08b6b5767f030592bf70);
+        
+    
+            marker_645219f5ee90176774e932c97068f16d.bindTooltip(
+                `<div>
+                     International SOS Bali Clinic
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_af917c151e3bd4e9c0951f4f6d44523d = L.marker(
+                [-8.6280229, 115.1712761],
+                {}
+            ).addTo(feature_group_2d5607b00dcd696edf34036641561bd6);
+        
+    
+            var icon_9c6730afb58ad9603962b201ca2acc25 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_af917c151e3bd4e9c0951f4f6d44523d.setIcon(icon_9c6730afb58ad9603962b201ca2acc25);
+        
+    
+            marker_af917c151e3bd4e9c0951f4f6d44523d.bindTooltip(
+                `<div>
+                     Kasih Ibu
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_27eff047467569d6b0fe0f8561c52d0c = L.marker(
+                [-8.7602199, 115.1758366],
+                {}
+            ).addTo(feature_group_2d5607b00dcd696edf34036641561bd6);
+        
+    
+            var icon_a304adf6c3b5acb47f616203f8223289 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_27eff047467569d6b0fe0f8561c52d0c.setIcon(icon_a304adf6c3b5acb47f616203f8223289);
+        
+    
+            marker_27eff047467569d6b0fe0f8561c52d0c.bindTooltip(
+                `<div>
+                     Kasih Ibu General Hsopital (Uluwatu)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_269ec0c11353b8a6b71cdff26d70347d = L.marker(
+                [-8.4997234, 115.1844643],
+                {}
+            ).addTo(feature_group_2d5607b00dcd696edf34036641561bd6);
+        
+    
+            var icon_5be6e49fc0ea555c0ff7e137ff7ccbda = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_269ec0c11353b8a6b71cdff26d70347d.setIcon(icon_5be6e49fc0ea555c0ff7e137ff7ccbda);
+        
+    
+            marker_269ec0c11353b8a6b71cdff26d70347d.bindTooltip(
+                `<div>
+                     Klinik
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6c47fdc2770edc4852488b5bf2933856 = L.marker(
+                [-8.7368514, 115.1679516],
+                {}
+            ).addTo(feature_group_2d5607b00dcd696edf34036641561bd6);
+        
+    
+            var icon_2b388c4daf60d6427235a5fd0f16a070 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_6c47fdc2770edc4852488b5bf2933856.setIcon(icon_2b388c4daf60d6427235a5fd0f16a070);
+        
+    
+            marker_6c47fdc2770edc4852488b5bf2933856.bindTooltip(
+                `<div>
+                     Klinik Putu Manuaba
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8f7a100dc3cc78e8d10a27072103eb08 = L.marker(
+                [-8.4741486, 115.5474422],
+                {}
+            ).addTo(feature_group_2d5607b00dcd696edf34036641561bd6);
+        
+    
+            var icon_b0e9baf7bd36ab45c8328d026dbf95bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_8f7a100dc3cc78e8d10a27072103eb08.setIcon(icon_b0e9baf7bd36ab45c8328d026dbf95bd);
+        
+    
+            marker_8f7a100dc3cc78e8d10a27072103eb08.bindTooltip(
+                `<div>
+                     Puskesmas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5666ca10a1dd6a5ab96e4c525587cf90 = L.marker(
+                [-8.1441468, 114.5895985],
+                {}
+            ).addTo(feature_group_2d5607b00dcd696edf34036641561bd6);
+        
+    
+            var icon_1976c1f5510bcb3672e9978619707573 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_5666ca10a1dd6a5ab96e4c525587cf90.setIcon(icon_1976c1f5510bcb3672e9978619707573);
+        
+    
+            marker_5666ca10a1dd6a5ab96e4c525587cf90.bindTooltip(
+                `<div>
+                     Puskesmas Gerokgak ll
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1f0c0e4528852c0f34b7edf4cf067805 = L.marker(
+                [-8.7545182, 115.1774988],
+                {}
+            ).addTo(feature_group_2d5607b00dcd696edf34036641561bd6);
+        
+    
+            var icon_6dc263031d2acc64f9805ec860303351 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_1f0c0e4528852c0f34b7edf4cf067805.setIcon(icon_6dc263031d2acc64f9805ec860303351);
+        
+    
+            marker_1f0c0e4528852c0f34b7edf4cf067805.bindTooltip(
+                `<div>
+                     Puskesmas Kelan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_97c596805196150d4007d64a741eeb4b = L.marker(
+                [-8.6148576, 115.2575308],
+                {}
+            ).addTo(feature_group_2d5607b00dcd696edf34036641561bd6);
+        
+    
+            var icon_feb3d4ffb2e7a859026ba3bb359a2a7f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_97c596805196150d4007d64a741eeb4b.setIcon(icon_feb3d4ffb2e7a859026ba3bb359a2a7f);
+        
+    
+            marker_97c596805196150d4007d64a741eeb4b.bindTooltip(
+                `<div>
+                     RSU Premagana
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_da9c48b2d8faac13668ffc64f18af3fb = L.marker(
+                [-8.4564672, 115.3527596],
+                {}
+            ).addTo(feature_group_2d5607b00dcd696edf34036641561bd6);
+        
+    
+            var icon_b8dcce523488c53832bdd3b630588ef2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_da9c48b2d8faac13668ffc64f18af3fb.setIcon(icon_b8dcce523488c53832bdd3b630588ef2);
+        
+    
+            marker_da9c48b2d8faac13668ffc64f18af3fb.bindTooltip(
+                `<div>
+                     RSUD Bangli
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_be5bc0ea85d786237b40ef16c0c65ccc = L.marker(
+                [-8.5395546, 115.1190891],
+                {}
+            ).addTo(feature_group_2d5607b00dcd696edf34036641561bd6);
+        
+    
+            var icon_926f2b70d135d675fc8652160916e6fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_be5bc0ea85d786237b40ef16c0c65ccc.setIcon(icon_926f2b70d135d675fc8652160916e6fd);
+        
+    
+            marker_be5bc0ea85d786237b40ef16c0c65ccc.bindTooltip(
+                `<div>
+                     Rumah Sakit Dharma Kerti
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_de347b6b0fadf54005b48bc3239ec6ff = L.marker(
+                [-8.6736469, 115.2324413],
+                {}
+            ).addTo(feature_group_2d5607b00dcd696edf34036641561bd6);
+        
+    
+            var icon_7e475443c659001d9d01138f76cba30c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_de347b6b0fadf54005b48bc3239ec6ff.setIcon(icon_7e475443c659001d9d01138f76cba30c);
+        
+    
+            marker_de347b6b0fadf54005b48bc3239ec6ff.bindTooltip(
+                `<div>
+                     Rumah Sakit Ibu Dan Anak Harapan Bunda
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8b36bceef727eac921aeee470090fb3f = L.marker(
+                [-8.4539236, 115.3520053],
+                {}
+            ).addTo(feature_group_2d5607b00dcd696edf34036641561bd6);
+        
+    
+            var icon_eee4348856e1ab6fb812a7e8e3c2986f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_8b36bceef727eac921aeee470090fb3f.setIcon(icon_eee4348856e1ab6fb812a7e8e3c2986f);
+        
+    
+            marker_8b36bceef727eac921aeee470090fb3f.bindTooltip(
+                `<div>
+                     Rumah Sakit Jiwa Provinsi Bali
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_35ccd6662e46a996ff4354a7a339f53b = L.marker(
+                [-8.1138198, 115.0916689],
+                {}
+            ).addTo(feature_group_2d5607b00dcd696edf34036641561bd6);
+        
+    
+            var icon_77f3ff1f9f9442a406634465835638c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_35ccd6662e46a996ff4354a7a339f53b.setIcon(icon_77f3ff1f9f9442a406634465835638c6);
+        
+    
+            marker_35ccd6662e46a996ff4354a7a339f53b.bindTooltip(
+                `<div>
+                     Rumah Sakit TNI-AD Singaraja
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5cc30b5098c1b579fbb4da55e8c1b425 = L.marker(
+                [-8.5387815, 115.3949388],
+                {}
+            ).addTo(feature_group_2d5607b00dcd696edf34036641561bd6);
+        
+    
+            var icon_90c79b9181398d65c390ac4144ef338e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_5cc30b5098c1b579fbb4da55e8c1b425.setIcon(icon_90c79b9181398d65c390ac4144ef338e);
+        
+    
+            marker_5cc30b5098c1b579fbb4da55e8c1b425.bindTooltip(
+                `<div>
+                     Rumah Sakit Umum Daerah Kabupaten Klungkung
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_58bcaf4e767fdc674ecc8b33a70f0ab0 = L.marker(
+                [-8.1221635, 115.0948171],
+                {}
+            ).addTo(feature_group_2d5607b00dcd696edf34036641561bd6);
+        
+    
+            var icon_099eb2f1da3c0528749f618ae7f5c24e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_58bcaf4e767fdc674ecc8b33a70f0ab0.setIcon(icon_099eb2f1da3c0528749f618ae7f5c24e);
+        
+    
+            marker_58bcaf4e767fdc674ecc8b33a70f0ab0.bindTooltip(
+                `<div>
+                     Rumah Sakit Umum Karya Dharma Husada
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f495fdcfc32deb72ebe56dfa3c3de33b = L.marker(
+                [-8.1100428, 115.0861758],
+                {}
+            ).addTo(feature_group_2d5607b00dcd696edf34036641561bd6);
+        
+    
+            var icon_841657dd335e37dbe8174b19ef581736 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_f495fdcfc32deb72ebe56dfa3c3de33b.setIcon(icon_841657dd335e37dbe8174b19ef581736);
+        
+    
+            marker_f495fdcfc32deb72ebe56dfa3c3de33b.bindTooltip(
+                `<div>
+                     Rumah Sakit Umum Kertha Usada
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_41850521e0d8b68015e47e69eea91eb6 = L.marker(
+                [-8.3544306, 114.621454],
+                {}
+            ).addTo(feature_group_2d5607b00dcd696edf34036641561bd6);
+        
+    
+            var icon_4323f7653f94f3cbd6a934c2a242aabc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_41850521e0d8b68015e47e69eea91eb6.setIcon(icon_4323f7653f94f3cbd6a934c2a242aabc);
+        
+    
+            marker_41850521e0d8b68015e47e69eea91eb6.bindTooltip(
+                `<div>
+                     Rumah Sakit Umum Negara
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e9fe5f50086a03409700ce2ca5aca1b7 = L.marker(
+                [-8.1204696, 115.0925921],
+                {}
+            ).addTo(feature_group_2d5607b00dcd696edf34036641561bd6);
+        
+    
+            var icon_d194cab26a813d3d2fa50a454afcadda = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_e9fe5f50086a03409700ce2ca5aca1b7.setIcon(icon_d194cab26a813d3d2fa50a454afcadda);
+        
+    
+            marker_e9fe5f50086a03409700ce2ca5aca1b7.bindTooltip(
+                `<div>
+                     Rumah Sakit Umum Singaraja
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_21817b5d53f5ad417ffa8c2d654c0807 = L.marker(
+                [-8.5241883, 115.2644531],
+                {}
+            ).addTo(feature_group_2d5607b00dcd696edf34036641561bd6);
+        
+    
+            var icon_712410d7cdc6e05750577181d3d02f53 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_21817b5d53f5ad417ffa8c2d654c0807.setIcon(icon_712410d7cdc6e05750577181d3d02f53);
+        
+    
+            marker_21817b5d53f5ad417ffa8c2d654c0807.bindTooltip(
+                `<div>
+                     Toya
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5638070783c817f89b1f879ec3b27438 = L.marker(
+                [-8.5047105, 115.2554075],
+                {}
+            ).addTo(feature_group_2d5607b00dcd696edf34036641561bd6);
+        
+    
+            var icon_a6add1d3095cd63106746569f1978c19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_5638070783c817f89b1f879ec3b27438.setIcon(icon_a6add1d3095cd63106746569f1978c19);
+        
+    
+            marker_5638070783c817f89b1f879ec3b27438.bindTooltip(
+                `<div>
+                     Ubud Clinic
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_058d80657f4f3c9a297212ddb8e3301a = L.marker(
+                [-8.5698912, 115.2209213],
+                {}
+            ).addTo(feature_group_2d5607b00dcd696edf34036641561bd6);
+        
+    
+            var icon_17ff440c38c855e79c84d554e09127d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_058d80657f4f3c9a297212ddb8e3301a.setIcon(icon_17ff440c38c855e79c84d554e09127d5);
+        
+    
+            marker_058d80657f4f3c9a297212ddb8e3301a.bindTooltip(
+                `<div>
+                     puskesmas Sibang kaja
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e1fad125985fecd036d503909c5d4ec1 = L.marker(
+                [-8.6737809, 115.5591245],
+                {}
+            ).addTo(feature_group_2d5607b00dcd696edf34036641561bd6);
+        
+    
+            var icon_acce91236f87e2da0691a0fd3d35803a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_e1fad125985fecd036d503909c5d4ec1.setIcon(icon_acce91236f87e2da0691a0fd3d35803a);
+        
+    
+            marker_e1fad125985fecd036d503909c5d4ec1.bindTooltip(
+                `<div>
+                     hospital
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2eb02833d28ad79464b5d27edde08feb = L.marker(
+                [-8.6435023, 115.1558842],
+                {}
+            ).addTo(feature_group_2d5607b00dcd696edf34036641561bd6);
+        
+    
+            var icon_d9179d8cea4eae0bf63ce7d059685d6f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_2eb02833d28ad79464b5d27edde08feb.setIcon(icon_d9179d8cea4eae0bf63ce7d059685d6f);
+        
+    
+            marker_2eb02833d28ad79464b5d27edde08feb.bindTooltip(
+                `<div>
+                     hospital
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f6e052adef76d86c42ba458a6f7f4373 = L.marker(
+                [-8.6384581, 115.1493506],
+                {}
+            ).addTo(feature_group_2d5607b00dcd696edf34036641561bd6);
+        
+    
+            var icon_a46b4bfaca71a4e7aeb8b2ce9f169f75 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_f6e052adef76d86c42ba458a6f7f4373.setIcon(icon_a46b4bfaca71a4e7aeb8b2ce9f169f75);
+        
+    
+            marker_f6e052adef76d86c42ba458a6f7f4373.bindTooltip(
+                `<div>
+                     hospital
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c174df00a8f6228466bfefb66dff24f2 = L.marker(
+                [-8.6768635, 115.494392],
+                {}
+            ).addTo(feature_group_2d5607b00dcd696edf34036641561bd6);
+        
+    
+            var icon_3470166c61831e5538816e5f27d345c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_c174df00a8f6228466bfefb66dff24f2.setIcon(icon_3470166c61831e5538816e5f27d345c1);
+        
+    
+            marker_c174df00a8f6228466bfefb66dff24f2.bindTooltip(
+                `<div>
+                     hospital
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b9b79bc1700b97b5e9e631195f02b206 = L.marker(
+                [-8.6715871, 115.1605105],
+                {}
+            ).addTo(feature_group_2d5607b00dcd696edf34036641561bd6);
+        
+    
+            var icon_cf5a2f167c366eabc11f4e7fbf826127 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_b9b79bc1700b97b5e9e631195f02b206.setIcon(icon_cf5a2f167c366eabc11f4e7fbf826127);
+        
+    
+            marker_b9b79bc1700b97b5e9e631195f02b206.bindTooltip(
+                `<div>
+                     hospital
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_450edb950ae86fe59d98be423f770a0a = L.marker(
+                [-8.664188, 115.1467671],
+                {}
+            ).addTo(feature_group_2d5607b00dcd696edf34036641561bd6);
+        
+    
+            var icon_7a4d2b2d750aa5549418c85a774830c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_450edb950ae86fe59d98be423f770a0a.setIcon(icon_7a4d2b2d750aa5549418c85a774830c1);
+        
+    
+            marker_450edb950ae86fe59d98be423f770a0a.bindTooltip(
+                `<div>
+                     hospital
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d64f1b34ce24db6c90e00a2d7da16122 = L.marker(
+                [-8.7084829, 115.1783917],
+                {}
+            ).addTo(feature_group_2d5607b00dcd696edf34036641561bd6);
+        
+    
+            var icon_5fd866d72a89d4aef46e5882166592b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_d64f1b34ce24db6c90e00a2d7da16122.setIcon(icon_5fd866d72a89d4aef46e5882166592b8);
+        
+    
+            marker_d64f1b34ce24db6c90e00a2d7da16122.bindTooltip(
+                `<div>
+                     hospital
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ac96f0bd37099e33748a86b22519bc67 = L.marker(
+                [-8.1274599, 115.0884129],
+                {}
+            ).addTo(feature_group_2d5607b00dcd696edf34036641561bd6);
+        
+    
+            var icon_560308ed8a6a0b1c1a45fad04502016c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_ac96f0bd37099e33748a86b22519bc67.setIcon(icon_560308ed8a6a0b1c1a45fad04502016c);
+        
+    
+            marker_ac96f0bd37099e33748a86b22519bc67.bindTooltip(
+                `<div>
+                     hospital
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_116431292bc576a4a3a702faf36e9f73 = L.marker(
+                [-8.1229735, 115.0713879],
+                {}
+            ).addTo(feature_group_2d5607b00dcd696edf34036641561bd6);
+        
+    
+            var icon_2454b98137d71d3de93addae8223c0f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_116431292bc576a4a3a702faf36e9f73.setIcon(icon_2454b98137d71d3de93addae8223c0f6);
+        
+    
+            marker_116431292bc576a4a3a702faf36e9f73.bindTooltip(
+                `<div>
+                     hospital
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_656df7a55f59a33d67ad9be7fd9505e3 = L.marker(
+                [-8.1119224, 115.0895675],
+                {}
+            ).addTo(feature_group_2d5607b00dcd696edf34036641561bd6);
+        
+    
+            var icon_d3d6fcecb4e5cb69646a70441b94111a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_656df7a55f59a33d67ad9be7fd9505e3.setIcon(icon_d3d6fcecb4e5cb69646a70441b94111a);
+        
+    
+            marker_656df7a55f59a33d67ad9be7fd9505e3.bindTooltip(
+                `<div>
+                     hospital
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_489d32bb389ca4e1286a8f4b3cd52dfb = L.featureGroup(
+                {}
+            ).addTo(map_2f1d7d5270562b3b957f8db9d74f76f3);
+        
+    
+            var marker_fe2af68ccd39d632d040e0332526683b = L.marker(
+                [-8.6576574, 115.1470885],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_81ac0ea8eb25916087ef69b484971a63 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_fe2af68ccd39d632d040e0332526683b.setIcon(icon_81ac0ea8eb25916087ef69b484971a63);
+        
+    
+            marker_fe2af68ccd39d632d040e0332526683b.bindTooltip(
+                `<div>
+                     Apotek
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c4e8d938f597475305de26d820d9cd70 = L.marker(
+                [-8.6839445, 115.1570507],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_83ea84393850da1da82f4a70d511f44a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_c4e8d938f597475305de26d820d9cd70.setIcon(icon_83ea84393850da1da82f4a70d511f44a);
+        
+    
+            marker_c4e8d938f597475305de26d820d9cd70.bindTooltip(
+                `<div>
+                     Apotek Guardian Seminyak Square
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_758c2b7ade08ba55a462a0cfb3111b25 = L.marker(
+                [-8.5403239, 115.1263976],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_9a081eac4cee9012e5271acf707a3664 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_758c2b7ade08ba55a462a0cfb3111b25.setIcon(icon_9a081eac4cee9012e5271acf707a3664);
+        
+    
+            marker_758c2b7ade08ba55a462a0cfb3111b25.bindTooltip(
+                `<div>
+                     Apotek Karunia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c7bf8bbbc190b48adbd4fd75866b1bb7 = L.marker(
+                [-8.6900602, 115.1729717],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_8fe54b008229a00dbb01285ae4f4ceb1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_c7bf8bbbc190b48adbd4fd75866b1bb7.setIcon(icon_8fe54b008229a00dbb01285ae4f4ceb1);
+        
+    
+            marker_c7bf8bbbc190b48adbd4fd75866b1bb7.bindTooltip(
+                `<div>
+                     Apotek Kimia Farma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_684ed5112a729755dc32d3bef4e048d3 = L.marker(
+                [-8.7668552, 115.1781333],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_dec10d7fe93cdf90c01d8c668c00c9a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_684ed5112a729755dc32d3bef4e048d3.setIcon(icon_dec10d7fe93cdf90c01d8c668c00c9a7);
+        
+    
+            marker_684ed5112a729755dc32d3bef4e048d3.bindTooltip(
+                `<div>
+                     Apotek Kimia Farma By Pass Ngurah Rai
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dc92c7a7a9ff5d9257e1ae9f3e524fa1 = L.marker(
+                [-8.6178895, 115.1960195],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_bcb72b7e040f6b5226520bab80609415 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_dc92c7a7a9ff5d9257e1ae9f3e524fa1.setIcon(icon_bcb72b7e040f6b5226520bab80609415);
+        
+    
+            marker_dc92c7a7a9ff5d9257e1ae9f3e524fa1.bindTooltip(
+                `<div>
+                     Apotek Kimia Farma Cokroaminoto
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dd1c18186302bdd35781786e0021ec6c = L.marker(
+                [-8.694814, 115.1681657],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_929a72627b78cfee9239e62dd4387ffd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_dd1c18186302bdd35781786e0021ec6c.setIcon(icon_929a72627b78cfee9239e62dd4387ffd);
+        
+    
+            marker_dd1c18186302bdd35781786e0021ec6c.bindTooltip(
+                `<div>
+                     Apotek Kimia Farma Raya Seminyaka
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a47a06eb261a337fc20be92865030737 = L.marker(
+                [-8.6811517, 115.1986509],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_40c5b9e9a5a8c0f695a7e1679ff73755 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a47a06eb261a337fc20be92865030737.setIcon(icon_40c5b9e9a5a8c0f695a7e1679ff73755);
+        
+    
+            marker_a47a06eb261a337fc20be92865030737.bindTooltip(
+                `<div>
+                     Apotek Kimia Farma Teuku Umar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6bbcf34d35d0c0dba817cbb922013558 = L.marker(
+                [-8.6899482, 115.226396],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_ec08d1df165ca56791715070e81fb556 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_6bbcf34d35d0c0dba817cbb922013558.setIcon(icon_ec08d1df165ca56791715070e81fb556);
+        
+    
+            marker_6bbcf34d35d0c0dba817cbb922013558.bindTooltip(
+                `<div>
+                     Apotek Kimia Farma Tukad Pakerisan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5e1f02c97b042a7bbab1e450a6358cb6 = L.marker(
+                [-8.6614059, 115.1670966],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_bda22fe83d70553da8d8ca4912582a9c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_5e1f02c97b042a7bbab1e450a6358cb6.setIcon(icon_bda22fe83d70553da8d8ca4912582a9c);
+        
+    
+            marker_5e1f02c97b042a7bbab1e450a6358cb6.bindTooltip(
+                `<div>
+                     Apotek Mukjizat Farma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ba0ce2ca7cd046870399648898a7c0eb = L.marker(
+                [-8.6818423, 115.1652993],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_8b3dbf8d2c61359d21057359490ea636 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_ba0ce2ca7cd046870399648898a7c0eb.setIcon(icon_8b3dbf8d2c61359d21057359490ea636);
+        
+    
+            marker_ba0ce2ca7cd046870399648898a7c0eb.bindTooltip(
+                `<div>
+                     Apotek Murah
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_53302c8b37075a61667e91e000758c8c = L.marker(
+                [-8.6819826, 115.1672569],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_aea5cb50ce54a93358a134035c5a3ea6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_53302c8b37075a61667e91e000758c8c.setIcon(icon_aea5cb50ce54a93358a134035c5a3ea6);
+        
+    
+            marker_53302c8b37075a61667e91e000758c8c.bindTooltip(
+                `<div>
+                     Apotek Nadi Farma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aedef7844eb08f2a3d5226394c16d00e = L.marker(
+                [-8.6737766, 115.2156132],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_f57e88790e7de1a8eb391cbd3d2367b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_aedef7844eb08f2a3d5226394c16d00e.setIcon(icon_f57e88790e7de1a8eb391cbd3d2367b8);
+        
+    
+            marker_aedef7844eb08f2a3d5226394c16d00e.bindTooltip(
+                `<div>
+                     Apotek Sinar Farma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6f00178d2b09dd10fe034997828f7b6f = L.marker(
+                [-8.6748147, 115.2134956],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_bbbb14002463fa82ae375f10c52ba3f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_6f00178d2b09dd10fe034997828f7b6f.setIcon(icon_bbbb14002463fa82ae375f10c52ba3f8);
+        
+    
+            marker_6f00178d2b09dd10fe034997828f7b6f.bindTooltip(
+                `<div>
+                     Apotek Vita Farma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ebcc4f6f1b153f9301e220e2b87b33c7 = L.marker(
+                [-8.5373042, 115.3230656],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_13d398db15ece655356450eed3948e9f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_ebcc4f6f1b153f9301e220e2b87b33c7.setIcon(icon_13d398db15ece655356450eed3948e9f);
+        
+    
+            marker_ebcc4f6f1b153f9301e220e2b87b33c7.bindTooltip(
+                `<div>
+                     Apotik 8 Jaya
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_133d728ee78e1f54dec450028229d5c8 = L.marker(
+                [-8.6373037, 115.176249],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_86c1a3aa0d622db5d47b1502cf677b43 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_133d728ee78e1f54dec450028229d5c8.setIcon(icon_86c1a3aa0d622db5d47b1502cf677b43);
+        
+    
+            marker_133d728ee78e1f54dec450028229d5c8.bindTooltip(
+                `<div>
+                     Apotik Hannah
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e23f482b2b187a7f209e958a7bdeb48a = L.marker(
+                [-8.677335, 115.2308461],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_bdce0dbe100fe2216911761a81b6bac7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_e23f482b2b187a7f209e958a7bdeb48a.setIcon(icon_bdce0dbe100fe2216911761a81b6bac7);
+        
+    
+            marker_e23f482b2b187a7f209e958a7bdeb48a.bindTooltip(
+                `<div>
+                     Apotik Hindi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f953890ec382bdbe292966f5b3a5008d = L.marker(
+                [-8.6607192, 115.1985805],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_30c945cb9f1d937b5e01181c8ec33ec4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_f953890ec382bdbe292966f5b3a5008d.setIcon(icon_30c945cb9f1d937b5e01181c8ec33ec4);
+        
+    
+            marker_f953890ec382bdbe292966f5b3a5008d.bindTooltip(
+                `<div>
+                     Apotik K24
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b03d165fe08f8b40c550b648a30d59d8 = L.marker(
+                [-8.4364688, 115.6121111],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_40694500e2f551a407d229ee89d60b53 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_b03d165fe08f8b40c550b648a30d59d8.setIcon(icon_40694500e2f551a407d229ee89d60b53);
+        
+    
+            marker_b03d165fe08f8b40c550b648a30d59d8.bindTooltip(
+                `<div>
+                     Apotik KSU Muda Usaha
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8aef218fb21dcf6fd8f3477576ae4cf8 = L.marker(
+                [-8.6848074, 115.2157519],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_6de62d3127f8728101310ed8f6891827 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_8aef218fb21dcf6fd8f3477576ae4cf8.setIcon(icon_6de62d3127f8728101310ed8f6891827);
+        
+    
+            marker_8aef218fb21dcf6fd8f3477576ae4cf8.bindTooltip(
+                `<div>
+                     Apotik Karya Farma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5307bb2c7a470c412d275d501b233c32 = L.marker(
+                [-8.6944912, 115.1879102],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_49a1358fbad61bc5b5869e3e50fcc39a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_5307bb2c7a470c412d275d501b233c32.setIcon(icon_49a1358fbad61bc5b5869e3e50fcc39a);
+        
+    
+            marker_5307bb2c7a470c412d275d501b233c32.bindTooltip(
+                `<div>
+                     Apotik Kita Bersama
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2c08d63fd0bd78f42ad434f5bbecc7a4 = L.marker(
+                [-8.6580689, 115.1911819],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_440ac8e1329069e03bd897e88757ea5f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_2c08d63fd0bd78f42ad434f5bbecc7a4.setIcon(icon_440ac8e1329069e03bd897e88757ea5f);
+        
+    
+            marker_2c08d63fd0bd78f42ad434f5bbecc7a4.bindTooltip(
+                `<div>
+                     Apotik Letizia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8d8fbd502c375f9077c5dbef6b48dc06 = L.marker(
+                [-8.6369042, 115.1961431],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_89edea0d3a525f6c34c67e4aff83856c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_8d8fbd502c375f9077c5dbef6b48dc06.setIcon(icon_89edea0d3a525f6c34c67e4aff83856c);
+        
+    
+            marker_8d8fbd502c375f9077c5dbef6b48dc06.bindTooltip(
+                `<div>
+                     Apotik Mulia Farma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ba5277e2cde17216db1a7c1f54b1dce3 = L.marker(
+                [-8.6485241, 115.2366038],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_f5cafbb899082383106d19c3378a3b3f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_ba5277e2cde17216db1a7c1f54b1dce3.setIcon(icon_f5cafbb899082383106d19c3378a3b3f);
+        
+    
+            marker_ba5277e2cde17216db1a7c1f54b1dce3.bindTooltip(
+                `<div>
+                     Apotik Multifarma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fd2518a5ed5247fe1405187494252663 = L.marker(
+                [-8.6818756, 115.1935932],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_2f558cc47e4f10450a636aed253c8a1f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_fd2518a5ed5247fe1405187494252663.setIcon(icon_2f558cc47e4f10450a636aed253c8a1f);
+        
+    
+            marker_fd2518a5ed5247fe1405187494252663.bindTooltip(
+                `<div>
+                     Apotik Puri Andika
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9712254685b73b6acf06c41f94c3a043 = L.marker(
+                [-8.6787204, 115.214998],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_ddc39778c8be517313905d91135a8a72 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_9712254685b73b6acf06c41f94c3a043.setIcon(icon_ddc39778c8be517313905d91135a8a72);
+        
+    
+            marker_9712254685b73b6acf06c41f94c3a043.bindTooltip(
+                `<div>
+                     Apotik Qita
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8fe4d5ef7f3a0c5a71c5ed5aa53e7a93 = L.marker(
+                [-8.7836324, 115.1716539],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_71c0da5bb3b5381c2ca772bf5599dc22 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_8fe4d5ef7f3a0c5a71c5ed5aa53e7a93.setIcon(icon_71c0da5bb3b5381c2ca772bf5599dc22);
+        
+    
+            marker_8fe4d5ef7f3a0c5a71c5ed5aa53e7a93.bindTooltip(
+                `<div>
+                     Apotik Rahayu Asih
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_75e9d76ebc012358d2f329b245373609 = L.marker(
+                [-8.6776144, 115.215424],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_cca7cd90c2c7e164f652fd9396b81d02 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_75e9d76ebc012358d2f329b245373609.setIcon(icon_cca7cd90c2c7e164f652fd9396b81d02);
+        
+    
+            marker_75e9d76ebc012358d2f329b245373609.bindTooltip(
+                `<div>
+                     Apotik Sehat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c071b72b4386c9d9ede1561081b7e3d5 = L.marker(
+                [-8.6819466, 115.1924768],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_3487f6b4b7a06ec08bde1a806f75561c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_c071b72b4386c9d9ede1561081b7e3d5.setIcon(icon_3487f6b4b7a06ec08bde1a806f75561c);
+        
+    
+            marker_c071b72b4386c9d9ede1561081b7e3d5.bindTooltip(
+                `<div>
+                     Apotik Sekar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f3518fa3383a7c39bb6a983ccb83ae24 = L.marker(
+                [-8.6768809, 115.21699],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_04d93a80ccfe592dc3bd455711474ba8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_f3518fa3383a7c39bb6a983ccb83ae24.setIcon(icon_04d93a80ccfe592dc3bd455711474ba8);
+        
+    
+            marker_f3518fa3383a7c39bb6a983ccb83ae24.bindTooltip(
+                `<div>
+                     Apotik Sekar Farma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d9077de88cb55121fc99fde3493fa5b7 = L.marker(
+                [-8.7029867, 115.2195134],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_ef048636bbbdc6135e69ed4eb8d53f1f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_d9077de88cb55121fc99fde3493fa5b7.setIcon(icon_ef048636bbbdc6135e69ed4eb8d53f1f);
+        
+    
+            marker_d9077de88cb55121fc99fde3493fa5b7.bindTooltip(
+                `<div>
+                     Apotik Sesetan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f8abc2f73af14de46b02b5304bc2ad71 = L.marker(
+                [-8.6765919, 115.2168765],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_7bddbb3d9722a3e5e713ecb554c1df3c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_f8abc2f73af14de46b02b5304bc2ad71.setIcon(icon_7bddbb3d9722a3e5e713ecb554c1df3c);
+        
+    
+            marker_f8abc2f73af14de46b02b5304bc2ad71.bindTooltip(
+                `<div>
+                     Apotik Setia Kawan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d1233dfc93d88fd9dc8da0359520de76 = L.marker(
+                [-8.674273, 115.2152586],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_6f91e622edbdcd749807db35d29df1f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_d1233dfc93d88fd9dc8da0359520de76.setIcon(icon_6f91e622edbdcd749807db35d29df1f0);
+        
+    
+            marker_d1233dfc93d88fd9dc8da0359520de76.bindTooltip(
+                `<div>
+                     Asia Farma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f9da9fef5940dc6bd6fa73ab5ccb9ee3 = L.marker(
+                [-8.6363196, 115.2148229],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_30c8ec03f4cfea365eb3aadb927988e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_f9da9fef5940dc6bd6fa73ab5ccb9ee3.setIcon(icon_30c8ec03f4cfea365eb3aadb927988e1);
+        
+    
+            marker_f9da9fef5940dc6bd6fa73ab5ccb9ee3.bindTooltip(
+                `<div>
+                     Century
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_45ea9a8a47c186a6035f60c6048654fd = L.marker(
+                [-8.7207063, 115.1718536],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_e9daccd003ded2f95891f69670d2f296 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_45ea9a8a47c186a6035f60c6048654fd.setIcon(icon_e9daccd003ded2f95891f69670d2f296);
+        
+    
+            marker_45ea9a8a47c186a6035f60c6048654fd.bindTooltip(
+                `<div>
+                     Chemist
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_152951d82c682655cd40be66cd36dea6 = L.marker(
+                [-8.653303, 115.1269681],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_56d29ff18a1753345361ea73069eb615 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_152951d82c682655cd40be66cd36dea6.setIcon(icon_56d29ff18a1753345361ea73069eb615);
+        
+    
+            marker_152951d82c682655cd40be66cd36dea6.bindTooltip(
+                `<div>
+                     Guardian
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7d1197a1411cd6b57c0a6c091e6d49e4 = L.marker(
+                [-8.8048859, 115.1594666],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_5a0553ff3dd17b3178ed672f6d026d86 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_7d1197a1411cd6b57c0a6c091e6d49e4.setIcon(icon_5a0553ff3dd17b3178ed672f6d026d86);
+        
+    
+            marker_7d1197a1411cd6b57c0a6c091e6d49e4.bindTooltip(
+                `<div>
+                     Guardian
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fc9f8ea3351e64abbfb3f35629fed337 = L.marker(
+                [-8.6536041, 115.1322891],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_8ede16d5490a206656daff54b93a011a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_fc9f8ea3351e64abbfb3f35629fed337.setIcon(icon_8ede16d5490a206656daff54b93a011a);
+        
+    
+            marker_fc9f8ea3351e64abbfb3f35629fed337.bindTooltip(
+                `<div>
+                     Guardian
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_79dd8741dda64c5bc951cddbbf2ebcfe = L.marker(
+                [-8.7450228, 115.1627587],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_c12309512ec55921276beb4e397e68d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_79dd8741dda64c5bc951cddbbf2ebcfe.setIcon(icon_c12309512ec55921276beb4e397e68d9);
+        
+    
+            marker_79dd8741dda64c5bc951cddbbf2ebcfe.bindTooltip(
+                `<div>
+                     Guardian
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e5bcd9b9eef3dd929031715cb72b648e = L.marker(
+                [-8.8018327, 115.2293264],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_46ad2173a6f59b064f0d5e144df516ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_e5bcd9b9eef3dd929031715cb72b648e.setIcon(icon_46ad2173a6f59b064f0d5e144df516ab);
+        
+    
+            marker_e5bcd9b9eef3dd929031715cb72b648e.bindTooltip(
+                `<div>
+                     Guardian
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e4a2e59b9893bd4204b3e0efb0154935 = L.marker(
+                [-8.8018535, 115.2322935],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_8e4ece01a3da11efae091905d2b1394b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_e4a2e59b9893bd4204b3e0efb0154935.setIcon(icon_8e4ece01a3da11efae091905d2b1394b);
+        
+    
+            marker_e4a2e59b9893bd4204b3e0efb0154935.bindTooltip(
+                `<div>
+                     Guardian
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_47cdc85f2de7baefbfa23da99fc43e27 = L.marker(
+                [-8.7051807, 115.2607288],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_3a83b942e5da75a43b9bf37d648487b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_47cdc85f2de7baefbfa23da99fc43e27.setIcon(icon_3a83b942e5da75a43b9bf37d648487b2);
+        
+    
+            marker_47cdc85f2de7baefbfa23da99fc43e27.bindTooltip(
+                `<div>
+                     Guardian
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c54164244de7db70b1991c7c4e08203b = L.marker(
+                [-8.5180875, 115.2616287],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_21818db1e2ca5b3a0470b2cc0936e061 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_c54164244de7db70b1991c7c4e08203b.setIcon(icon_21818db1e2ca5b3a0470b2cc0936e061);
+        
+    
+            marker_c54164244de7db70b1991c7c4e08203b.bindTooltip(
+                `<div>
+                     Guardian
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c79064e81c0b75a769bbbb002500a849 = L.marker(
+                [-8.6721908, 115.1650733],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_20596a43385628ce25604220a76349e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_c79064e81c0b75a769bbbb002500a849.setIcon(icon_20596a43385628ce25604220a76349e8);
+        
+    
+            marker_c79064e81c0b75a769bbbb002500a849.bindTooltip(
+                `<div>
+                     Guardian
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e711e74156ada0e77efbf54c0fd553c = L.marker(
+                [-8.7173278, 115.1741456],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_a585e7f419b73617cea682c6ae053eee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_1e711e74156ada0e77efbf54c0fd553c.setIcon(icon_a585e7f419b73617cea682c6ae053eee);
+        
+    
+            marker_1e711e74156ada0e77efbf54c0fd553c.bindTooltip(
+                `<div>
+                     Guardian
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ec62e8f7e34f1b90d22aa91cb5ab55d0 = L.marker(
+                [-8.694637, 115.2636902],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_dd5271bc3795f6fe8bad23b7a1966cca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_ec62e8f7e34f1b90d22aa91cb5ab55d0.setIcon(icon_dd5271bc3795f6fe8bad23b7a1966cca);
+        
+    
+            marker_ec62e8f7e34f1b90d22aa91cb5ab55d0.bindTooltip(
+                `<div>
+                     Guardian
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4c1ab0b368e3fb34d62c8660bf0eda72 = L.marker(
+                [-8.6894357, 115.1674218],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_3fe74ec07b02a5e5a4737b6bd302b451 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_4c1ab0b368e3fb34d62c8660bf0eda72.setIcon(icon_3fe74ec07b02a5e5a4737b6bd302b451);
+        
+    
+            marker_4c1ab0b368e3fb34d62c8660bf0eda72.bindTooltip(
+                `<div>
+                     Guardian - Bali Warung Made Seminyak (6445)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a5275104328c87092fe79e1beec23483 = L.marker(
+                [-8.7246487, 115.1736847],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_897983e339f78d5d88720616fef0510e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a5275104328c87092fe79e1beec23483.setIcon(icon_897983e339f78d5d88720616fef0510e);
+        
+    
+            marker_a5275104328c87092fe79e1beec23483.bindTooltip(
+                `<div>
+                     Guardian Kuta Raya
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_42ebcd4c1208212b66b2df778756a003 = L.marker(
+                [-8.5086825, 115.2616968],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_553b4cea5b94ebfbdcdab93ed7124c7b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_42ebcd4c1208212b66b2df778756a003.setIcon(icon_553b4cea5b94ebfbdcdab93ed7124c7b);
+        
+    
+            marker_42ebcd4c1208212b66b2df778756a003.bindTooltip(
+                `<div>
+                     Guardian Pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_592facfb17c119cd2c42ead67acc4a4a = L.marker(
+                [-8.6486693, 115.1618688],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_daadeaa8e998464d244c6d180e67161b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_592facfb17c119cd2c42ead67acc4a4a.setIcon(icon_daadeaa8e998464d244c6d180e67161b);
+        
+    
+            marker_592facfb17c119cd2c42ead67acc4a4a.bindTooltip(
+                `<div>
+                     Guardian Pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b7c6fa799c06e2c6da91b4eb146fbee8 = L.marker(
+                [-8.5073384, 115.2591251],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_44abbf1a3c83dc4a0945db914a91b745 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_b7c6fa799c06e2c6da91b4eb146fbee8.setIcon(icon_44abbf1a3c83dc4a0945db914a91b745);
+        
+    
+            marker_b7c6fa799c06e2c6da91b4eb146fbee8.bindTooltip(
+                `<div>
+                     Guardian Pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dc1c8391e7323f36e9f674f822428e59 = L.marker(
+                [-8.5057007, 115.2598534],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_5766b8a622ae01f621bc9a9677f5d586 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_dc1c8391e7323f36e9f674f822428e59.setIcon(icon_5766b8a622ae01f621bc9a9677f5d586);
+        
+    
+            marker_dc1c8391e7323f36e9f674f822428e59.bindTooltip(
+                `<div>
+                     Guardian Pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9d00f95364d22881f0fd37a83d14c903 = L.marker(
+                [-8.5119805, 115.2609825],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_f9133f9f639f985dc12e0cfa00ccd93f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_9d00f95364d22881f0fd37a83d14c903.setIcon(icon_f9133f9f639f985dc12e0cfa00ccd93f);
+        
+    
+            marker_9d00f95364d22881f0fd37a83d14c903.bindTooltip(
+                `<div>
+                     Guardian pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_93775b11ea59c72b61b236d1371901ac = L.marker(
+                [-8.6880339, 115.1674892],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_bd338c3be470ad3517c71af67ebfb370 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_93775b11ea59c72b61b236d1371901ac.setIcon(icon_bd338c3be470ad3517c71af67ebfb370);
+        
+    
+            marker_93775b11ea59c72b61b236d1371901ac.bindTooltip(
+                `<div>
+                     Healing Pharmacy Health & Beauty Seminyak
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2b84776a51f4fd4c7b93c71f595fab74 = L.marker(
+                [-8.7810639, 115.1763152],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_92896ebe2044f7065fbb4153ddbd6d97 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_2b84776a51f4fd4c7b93c71f595fab74.setIcon(icon_92896ebe2044f7065fbb4153ddbd6d97);
+        
+    
+            marker_2b84776a51f4fd4c7b93c71f595fab74.bindTooltip(
+                `<div>
+                     K24
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7d1ca3cca95641b3114be1404eeff3e7 = L.marker(
+                [-8.6991366, 115.2190321],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_d4cfc09ece8547cfb7845f7d6d4dcab0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_7d1ca3cca95641b3114be1404eeff3e7.setIcon(icon_d4cfc09ece8547cfb7845f7d6d4dcab0);
+        
+    
+            marker_7d1ca3cca95641b3114be1404eeff3e7.bindTooltip(
+                `<div>
+                     K24
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_798f519c66205aa069438dacc910fd6a = L.marker(
+                [-8.6306227, 115.2238862],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_759833c1fa96fc65b58bb69000d6406f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_798f519c66205aa069438dacc910fd6a.setIcon(icon_759833c1fa96fc65b58bb69000d6406f);
+        
+    
+            marker_798f519c66205aa069438dacc910fd6a.bindTooltip(
+                `<div>
+                     K24
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8c74a6f339bc396145d47fd848a47b93 = L.marker(
+                [-8.6782967, 115.205083],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_ad38b882f7f377299320658998181da4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_8c74a6f339bc396145d47fd848a47b93.setIcon(icon_ad38b882f7f377299320658998181da4);
+        
+    
+            marker_8c74a6f339bc396145d47fd848a47b93.bindTooltip(
+                `<div>
+                     K24
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0e3ef5364df2373cbe184ef1185d3123 = L.marker(
+                [-8.6388134, 115.2066178],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_5b05c78c3f80f0721d538049d509f1e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_0e3ef5364df2373cbe184ef1185d3123.setIcon(icon_5b05c78c3f80f0721d538049d509f1e5);
+        
+    
+            marker_0e3ef5364df2373cbe184ef1185d3123.bindTooltip(
+                `<div>
+                     K24
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0c0fb0cb0b5618008773175aa7d3f80a = L.marker(
+                [-8.4455131, 115.6026868],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_75bc6302473bb7229a253d33466dbc91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_0c0fb0cb0b5618008773175aa7d3f80a.setIcon(icon_75bc6302473bb7229a253d33466dbc91);
+        
+    
+            marker_0c0fb0cb0b5618008773175aa7d3f80a.bindTooltip(
+                `<div>
+                     Kasih Farma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_97e2f9814a10ddfc491dcf0cb80bd274 = L.marker(
+                [-8.7717489, 115.1730895],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_fcb65896e7611bc5e51382325de7d44c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_97e2f9814a10ddfc491dcf0cb80bd274.setIcon(icon_fcb65896e7611bc5e51382325de7d44c);
+        
+    
+            marker_97e2f9814a10ddfc491dcf0cb80bd274.bindTooltip(
+                `<div>
+                     Kimia Farma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_35c4e7b583cf6721d79d71771ad72e0c = L.marker(
+                [-8.7157266, 115.1739045],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_939a91713afc9502ec3d7bd345ae874c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_35c4e7b583cf6721d79d71771ad72e0c.setIcon(icon_939a91713afc9502ec3d7bd345ae874c);
+        
+    
+            marker_35c4e7b583cf6721d79d71771ad72e0c.bindTooltip(
+                `<div>
+                     Kimia Farma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9a176eacf26fbca1238b291b19579bc9 = L.marker(
+                [-8.7125742, 115.1732112],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_9f51b03d4c30f1d1639c48fede7b9e0a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_9a176eacf26fbca1238b291b19579bc9.setIcon(icon_9f51b03d4c30f1d1639c48fede7b9e0a);
+        
+    
+            marker_9a176eacf26fbca1238b291b19579bc9.bindTooltip(
+                `<div>
+                     Kimia Farma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_47608605b7aba12fb7a7072957439274 = L.marker(
+                [-8.6969619, 115.1689184],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_41d82543c9211e1f19f4000c40b0da40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_47608605b7aba12fb7a7072957439274.setIcon(icon_41d82543c9211e1f19f4000c40b0da40);
+        
+    
+            marker_47608605b7aba12fb7a7072957439274.bindTooltip(
+                `<div>
+                     Kimia Farma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b902096ac92f65b620266b13681d4606 = L.marker(
+                [-8.7330026, 115.1777476],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_53637ed04ea3e8b4f42c36e8c8e88414 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_b902096ac92f65b620266b13681d4606.setIcon(icon_53637ed04ea3e8b4f42c36e8c8e88414);
+        
+    
+            marker_b902096ac92f65b620266b13681d4606.bindTooltip(
+                `<div>
+                     Kimia Farma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_344683c8a140e3b7fd121c8e8b4004e6 = L.marker(
+                [-8.6394109, 115.2042881],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_3774f33868a32c61e7b3352922c6dfc8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_344683c8a140e3b7fd121c8e8b4004e6.setIcon(icon_3774f33868a32c61e7b3352922c6dfc8);
+        
+    
+            marker_344683c8a140e3b7fd121c8e8b4004e6.bindTooltip(
+                `<div>
+                     Kimia Farma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e987ac9e00e6745b995a86fa6cdb9c60 = L.marker(
+                [-8.7381359, 115.1681274],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_59cb5042aacc2fb2e3a141acc44d64f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_e987ac9e00e6745b995a86fa6cdb9c60.setIcon(icon_59cb5042aacc2fb2e3a141acc44d64f5);
+        
+    
+            marker_e987ac9e00e6745b995a86fa6cdb9c60.bindTooltip(
+                `<div>
+                     Kimia Farma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7c244a2c77fe0c6cc70c5c914cabe72a = L.marker(
+                [-8.5174282, 115.2633625],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_440eeadfea62aca1ad0af53e549e5071 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_7c244a2c77fe0c6cc70c5c914cabe72a.setIcon(icon_440eeadfea62aca1ad0af53e549e5071);
+        
+    
+            marker_7c244a2c77fe0c6cc70c5c914cabe72a.bindTooltip(
+                `<div>
+                     Kimia Farma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5ebf31b16d5ccdbf322dc1db0a00f9fc = L.marker(
+                [-8.7219544, 115.178503],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_839c3add38474ae7af4a3821d435357f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_5ebf31b16d5ccdbf322dc1db0a00f9fc.setIcon(icon_839c3add38474ae7af4a3821d435357f);
+        
+    
+            marker_5ebf31b16d5ccdbf322dc1db0a00f9fc.bindTooltip(
+                `<div>
+                     Kimia Farma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dc85bc28eef04b30769b060a400a94e4 = L.marker(
+                [-8.7100605, 115.1741493],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_fa47765295c1d3be51949f55146c7fa9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_dc85bc28eef04b30769b060a400a94e4.setIcon(icon_fa47765295c1d3be51949f55146c7fa9);
+        
+    
+            marker_dc85bc28eef04b30769b060a400a94e4.bindTooltip(
+                `<div>
+                     Kimia Farma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_daf2f6032e125845ecf8bbae4cd41975 = L.marker(
+                [-8.7920284, 115.1533849],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_2ce61614dbe107a19b45fe8269b0b7bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_daf2f6032e125845ecf8bbae4cd41975.setIcon(icon_2ce61614dbe107a19b45fe8269b0b7bb);
+        
+    
+            marker_daf2f6032e125845ecf8bbae4cd41975.bindTooltip(
+                `<div>
+                     Kimia Farma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_238748885606ee95e83dd9a283553dbd = L.marker(
+                [-8.5158487, 115.2600787],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_9a97a4ca59d480ddd51cad5f9924c1c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_238748885606ee95e83dd9a283553dbd.setIcon(icon_9a97a4ca59d480ddd51cad5f9924c1c6);
+        
+    
+            marker_238748885606ee95e83dd9a283553dbd.bindTooltip(
+                `<div>
+                     Kimia Farma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5be8bc11990bbb83944e61fce9b3d3fe = L.marker(
+                [-8.7850063, 115.1876955],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_3a01a584f80d0a3ba4fbdd5d7e74af22 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_5be8bc11990bbb83944e61fce9b3d3fe.setIcon(icon_3a01a584f80d0a3ba4fbdd5d7e74af22);
+        
+    
+            marker_5be8bc11990bbb83944e61fce9b3d3fe.bindTooltip(
+                `<div>
+                     Kimia Farma Apotek
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2cd0e328e36ddfd23d300c2120b1ccd4 = L.marker(
+                [-8.6909981, 115.1647351],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_d29f22554f4e1b304d548bb1ff8c7704 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_2cd0e328e36ddfd23d300c2120b1ccd4.setIcon(icon_d29f22554f4e1b304d548bb1ff8c7704);
+        
+    
+            marker_2cd0e328e36ddfd23d300c2120b1ccd4.bindTooltip(
+                `<div>
+                     Kimia Farma Apotek Camplung Tanduk
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d2b2e16dc5e9c86924315136c82dafd0 = L.marker(
+                [-8.774571, 115.2225795],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_2148069b0270b8fcc59b0bec97473a45 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_d2b2e16dc5e9c86924315136c82dafd0.setIcon(icon_2148069b0270b8fcc59b0bec97473a45);
+        
+    
+            marker_d2b2e16dc5e9c86924315136c82dafd0.bindTooltip(
+                `<div>
+                     Kimia farma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3abee98f965bf59cec3aff702327d2e8 = L.marker(
+                [-8.7962782, 115.2193818],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_58a2d172743d6c4304cdca6de20917b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_3abee98f965bf59cec3aff702327d2e8.setIcon(icon_58a2d172743d6c4304cdca6de20917b9);
+        
+    
+            marker_3abee98f965bf59cec3aff702327d2e8.bindTooltip(
+                `<div>
+                     Kimia farma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b91a50c2329673ed92dd6bc7d76c5b74 = L.marker(
+                [-8.6990947, 115.1694077],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_39335402a94ecb8602f16931f628f296 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_b91a50c2329673ed92dd6bc7d76c5b74.setIcon(icon_39335402a94ecb8602f16931f628f296);
+        
+    
+            marker_b91a50c2329673ed92dd6bc7d76c5b74.bindTooltip(
+                `<div>
+                     Legian Farma Apotek
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c7b02debe93655d34a4f010cc0481eba = L.marker(
+                [-8.4481119, 115.6161937],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_14ff0c038bb995e72d3c1282703e72e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_c7b02debe93655d34a4f010cc0481eba.setIcon(icon_14ff0c038bb995e72d3c1282703e72e8);
+        
+    
+            marker_c7b02debe93655d34a4f010cc0481eba.bindTooltip(
+                `<div>
+                     Mega Farma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a65590d7495b0fa87e7296b8ec3d496f = L.marker(
+                [-8.1963072, 114.9346188],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_8cdab2555c2d8277d5a11e394e223312 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a65590d7495b0fa87e7296b8ec3d496f.setIcon(icon_8cdab2555c2d8277d5a11e394e223312);
+        
+    
+            marker_a65590d7495b0fa87e7296b8ec3d496f.bindTooltip(
+                `<div>
+                     Mulia farma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4110f19eb70ed99654f9168c29c361b7 = L.marker(
+                [-8.6752357, 115.2155247],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_12252d5553e5e8f42c1fa6041a027df0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_4110f19eb70ed99654f9168c29c361b7.setIcon(icon_12252d5553e5e8f42c1fa6041a027df0);
+        
+    
+            marker_4110f19eb70ed99654f9168c29c361b7.bindTooltip(
+                `<div>
+                     Obat Murah
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_479ceedddb4d69cd2813d70f1afd5b7e = L.marker(
+                [-8.6612089, 115.2149423],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_a2c8d8000aca7837f14832e029ff201f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_479ceedddb4d69cd2813d70f1afd5b7e.setIcon(icon_a2c8d8000aca7837f14832e029ff201f);
+        
+    
+            marker_479ceedddb4d69cd2813d70f1afd5b7e.bindTooltip(
+                `<div>
+                     Raja Waras
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7223a897eb8b2232f1cd79fb113d465f = L.marker(
+                [-8.7170529, 115.1715035],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_6f32b486fbfa3b0e7aa813ee420d2a16 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_7223a897eb8b2232f1cd79fb113d465f.setIcon(icon_6f32b486fbfa3b0e7aa813ee420d2a16);
+        
+    
+            marker_7223a897eb8b2232f1cd79fb113d465f.bindTooltip(
+                `<div>
+                     Royal Farma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b87327f29afe4746f5b9d340377f428f = L.marker(
+                [-8.6357673, 115.2298602],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_1e3bfa5f0cc79d777305b708d27da5f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_b87327f29afe4746f5b9d340377f428f.setIcon(icon_1e3bfa5f0cc79d777305b708d27da5f8);
+        
+    
+            marker_b87327f29afe4746f5b9d340377f428f.bindTooltip(
+                `<div>
+                     Sozo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1d9dd22ae1d93aae7c1fd78a355cd0e1 = L.marker(
+                [-8.5319233, 115.5075242],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_a1e62a6fffe4cb70f69cdda5b162b1ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_1d9dd22ae1d93aae7c1fd78a355cd0e1.setIcon(icon_a1e62a6fffe4cb70f69cdda5b162b1ed);
+        
+    
+            marker_1d9dd22ae1d93aae7c1fd78a355cd0e1.bindTooltip(
+                `<div>
+                     Tantra Farma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c716c3611de0677a48fb757d9d201a3b = L.marker(
+                [-8.4476343, 115.6161819],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_282dadaf49b787fa24a3690aef797936 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_c716c3611de0677a48fb757d9d201a3b.setIcon(icon_282dadaf49b787fa24a3690aef797936);
+        
+    
+            marker_c716c3611de0677a48fb757d9d201a3b.bindTooltip(
+                `<div>
+                     Toko Obat Himalayan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_39e13317c12530ac96d6fc765a5cdef1 = L.marker(
+                [-8.653193, 115.1325602],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_f322dff4ca965cda6ba36ab16d74e720 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_39e13317c12530ac96d6fc765a5cdef1.setIcon(icon_f322dff4ca965cda6ba36ab16d74e720);
+        
+    
+            marker_39e13317c12530ac96d6fc765a5cdef1.bindTooltip(
+                `<div>
+                     Watsons
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c95f7b36a7319410c58fbd06c1ae52df = L.marker(
+                [-8.6836215, 115.1566223],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_ce32aa6dd5691c024c0fa2bb3c1f5caa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_c95f7b36a7319410c58fbd06c1ae52df.setIcon(icon_ce32aa6dd5691c024c0fa2bb3c1f5caa);
+        
+    
+            marker_c95f7b36a7319410c58fbd06c1ae52df.bindTooltip(
+                `<div>
+                     Watsons - Bali Seminyak Square
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ce52f733f43aacc1bb26da8a10ad9fac = L.marker(
+                [-8.628073, 115.2603077],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_b15284877a4337128a23e2fddb59c5ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_ce52f733f43aacc1bb26da8a10ad9fac.setIcon(icon_b15284877a4337128a23e2fddb59c5ce);
+        
+    
+            marker_ce52f733f43aacc1bb26da8a10ad9fac.bindTooltip(
+                `<div>
+                     vivaGenerik
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_28b7b39ec6a2fb567967ca45691642c9 = L.marker(
+                [-8.7124348, 115.1717915],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_81ad19a8b6d278e4f43005f1e8fd3a7f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_28b7b39ec6a2fb567967ca45691642c9.setIcon(icon_81ad19a8b6d278e4f43005f1e8fd3a7f);
+        
+    
+            marker_28b7b39ec6a2fb567967ca45691642c9.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a257b4f2bfb918492144cef87df8de3e = L.marker(
+                [-8.7121696, 115.1723708],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_5560b083057c920819fafdcfca197a7e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a257b4f2bfb918492144cef87df8de3e.setIcon(icon_5560b083057c920819fafdcfca197a7e);
+        
+    
+            marker_a257b4f2bfb918492144cef87df8de3e.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_29a92957e3f471f39017317530857cd5 = L.marker(
+                [-8.6719999, 115.1716608],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_c243ea9dc249d03d294e67fbcc4574fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_29a92957e3f471f39017317530857cd5.setIcon(icon_c243ea9dc249d03d294e67fbcc4574fc);
+        
+    
+            marker_29a92957e3f471f39017317530857cd5.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_41d14c9a2c100963478174a2e622926d = L.marker(
+                [-8.6393493, 115.2531866],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_2c487fd8650f1e7c4b2c1278d13a9cae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_41d14c9a2c100963478174a2e622926d.setIcon(icon_2c487fd8650f1e7c4b2c1278d13a9cae);
+        
+    
+            marker_41d14c9a2c100963478174a2e622926d.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4410e486f34de9d0a466ea1c65c188a9 = L.marker(
+                [-8.7659732, 115.1782724],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_1f18bccf8c4c37fd53e964d5e83ceb3d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_4410e486f34de9d0a466ea1c65c188a9.setIcon(icon_1f18bccf8c4c37fd53e964d5e83ceb3d);
+        
+    
+            marker_4410e486f34de9d0a466ea1c65c188a9.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_76fd5a7ea8d5afdd3220512e3ace6bf0 = L.marker(
+                [-8.6739482, 115.5590844],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_60bb2f97a36e9c402f792318d83ff723 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_76fd5a7ea8d5afdd3220512e3ace6bf0.setIcon(icon_60bb2f97a36e9c402f792318d83ff723);
+        
+    
+            marker_76fd5a7ea8d5afdd3220512e3ace6bf0.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a613f20ca9f66dcdc70fd4f97be1aef9 = L.marker(
+                [-8.1246721, 115.3383676],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_85ff7c014905ab2bbe1ad7d50347d5d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a613f20ca9f66dcdc70fd4f97be1aef9.setIcon(icon_85ff7c014905ab2bbe1ad7d50347d5d1);
+        
+    
+            marker_a613f20ca9f66dcdc70fd4f97be1aef9.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8d8eaac47b8234936c2fe50648d3afbb = L.marker(
+                [-8.5501155, 115.1702],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_192aff950952a6f04d533dc54d602f18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_8d8eaac47b8234936c2fe50648d3afbb.setIcon(icon_192aff950952a6f04d533dc54d602f18);
+        
+    
+            marker_8d8eaac47b8234936c2fe50648d3afbb.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dfd1699e5562d439c0f046d7317c7ece = L.marker(
+                [-8.49969, 115.1845363],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_fd3e6401dc235038be8aaf92d1077c10 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_dfd1699e5562d439c0f046d7317c7ece.setIcon(icon_fd3e6401dc235038be8aaf92d1077c10);
+        
+    
+            marker_dfd1699e5562d439c0f046d7317c7ece.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a8642d43d6022058b98f9f12c0d85202 = L.marker(
+                [-8.1466889, 114.6595518],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_6447572f6494f9d5f6c79ee4a5289810 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a8642d43d6022058b98f9f12c0d85202.setIcon(icon_6447572f6494f9d5f6c79ee4a5289810);
+        
+    
+            marker_a8642d43d6022058b98f9f12c0d85202.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b317e89c1323212ea3199726672c3516 = L.marker(
+                [-8.2007039, 114.8240679],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_44cb046256afbf6582bb055ff44bbb80 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_b317e89c1323212ea3199726672c3516.setIcon(icon_44cb046256afbf6582bb055ff44bbb80);
+        
+    
+            marker_b317e89c1323212ea3199726672c3516.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c48e315422f2d79f6296e39a00ca6bf0 = L.marker(
+                [-8.3258712, 115.1855939],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_43435593e58de86e45ea865861837920 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_c48e315422f2d79f6296e39a00ca6bf0.setIcon(icon_43435593e58de86e45ea865861837920);
+        
+    
+            marker_c48e315422f2d79f6296e39a00ca6bf0.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dd10ef7e5ae160491b91e8abd9c5b179 = L.marker(
+                [-8.8164566, 115.0930386],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_e41a9c2431ec9d2372bbd4d9c5030ef9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_dd10ef7e5ae160491b91e8abd9c5b179.setIcon(icon_e41a9c2431ec9d2372bbd4d9c5030ef9);
+        
+    
+            marker_dd10ef7e5ae160491b91e8abd9c5b179.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e1424afa215fd7ed39209599076e8363 = L.marker(
+                [-8.5218186, 115.2682776],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_ae05ef67d70352630589239980b0e72f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_e1424afa215fd7ed39209599076e8363.setIcon(icon_ae05ef67d70352630589239980b0e72f);
+        
+    
+            marker_e1424afa215fd7ed39209599076e8363.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7ba52c8d37070261a8f837a98cfc751f = L.marker(
+                [-8.6909914, 115.1677416],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_cf46a42eee9f701b68ec39e224604df6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_7ba52c8d37070261a8f837a98cfc751f.setIcon(icon_cf46a42eee9f701b68ec39e224604df6);
+        
+    
+            marker_7ba52c8d37070261a8f837a98cfc751f.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5aa8e905452f14343a500edb4ea9b796 = L.marker(
+                [-8.7987744, 115.222679],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_4099df467b4f0ee61f08a7ed95204b61 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_5aa8e905452f14343a500edb4ea9b796.setIcon(icon_4099df467b4f0ee61f08a7ed95204b61);
+        
+    
+            marker_5aa8e905452f14343a500edb4ea9b796.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_10c2477f85bfedbc1b36639636f2b690 = L.marker(
+                [-8.5079947, 115.2650887],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_23de44c9d63c93d77a3074ca3e4f2c91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_10c2477f85bfedbc1b36639636f2b690.setIcon(icon_23de44c9d63c93d77a3074ca3e4f2c91);
+        
+    
+            marker_10c2477f85bfedbc1b36639636f2b690.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1d1195fae471ad6d7c4108a7ff306b74 = L.marker(
+                [-8.1249344, 115.0685194],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_0f3a4acb34e716f69bdab603e43f315e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_1d1195fae471ad6d7c4108a7ff306b74.setIcon(icon_0f3a4acb34e716f69bdab603e43f315e);
+        
+    
+            marker_1d1195fae471ad6d7c4108a7ff306b74.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f4d6f3ee987272179b145608459478e8 = L.marker(
+                [-8.5330809, 115.2437207],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_b25e144c25612b8874d39160b5bb525f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_f4d6f3ee987272179b145608459478e8.setIcon(icon_b25e144c25612b8874d39160b5bb525f);
+        
+    
+            marker_f4d6f3ee987272179b145608459478e8.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_528f26e6efa8e94b7d27436a5fad27b7 = L.marker(
+                [-8.6597124, 115.1398245],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_2d41a0bcd9d7014ae1d8f6e431cec4e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_528f26e6efa8e94b7d27436a5fad27b7.setIcon(icon_2d41a0bcd9d7014ae1d8f6e431cec4e6);
+        
+    
+            marker_528f26e6efa8e94b7d27436a5fad27b7.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_21e4e375bbbcf3c787a34dceaa0a7906 = L.marker(
+                [-8.775835, 115.1712157],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_7e59b80d2897619cf75a4517fedf93b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_21e4e375bbbcf3c787a34dceaa0a7906.setIcon(icon_7e59b80d2897619cf75a4517fedf93b9);
+        
+    
+            marker_21e4e375bbbcf3c787a34dceaa0a7906.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_303d0e9c31e26f27a11d265744cb58a1 = L.marker(
+                [-8.669169, 115.1466883],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_732ee6cd9a4e5008df75722b1bd2c1e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_303d0e9c31e26f27a11d265744cb58a1.setIcon(icon_732ee6cd9a4e5008df75722b1bd2c1e1);
+        
+    
+            marker_303d0e9c31e26f27a11d265744cb58a1.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0390c110b783e8fdb504db09c7864649 = L.marker(
+                [-8.6765089, 115.49146],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_15a571622cb258aadcbc141058d91ff9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_0390c110b783e8fdb504db09c7864649.setIcon(icon_15a571622cb258aadcbc141058d91ff9);
+        
+    
+            marker_0390c110b783e8fdb504db09c7864649.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_caf7f392131bf69b6ef452d8c7238fce = L.marker(
+                [-8.6229389, 115.2566364],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_29261cb9b594b3d9dbeb028d9c43e9e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_caf7f392131bf69b6ef452d8c7238fce.setIcon(icon_29261cb9b594b3d9dbeb028d9c43e9e0);
+        
+    
+            marker_caf7f392131bf69b6ef452d8c7238fce.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c373305d2e2ca74c498395ef20322330 = L.marker(
+                [-8.6894965, 115.1675136],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_568ce71a419531c457ed2dbca5775fea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_c373305d2e2ca74c498395ef20322330.setIcon(icon_568ce71a419531c457ed2dbca5775fea);
+        
+    
+            marker_c373305d2e2ca74c498395ef20322330.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d7cf2a6d1232d50a28d20a75f371781d = L.marker(
+                [-8.6938412, 115.1680936],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_afe67792284fef6a31858cf2e2d06659 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_d7cf2a6d1232d50a28d20a75f371781d.setIcon(icon_afe67792284fef6a31858cf2e2d06659);
+        
+    
+            marker_d7cf2a6d1232d50a28d20a75f371781d.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_248f39a572d39415a856eb711eb5d93c = L.marker(
+                [-8.7152511, 115.1738942],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_98fab68ebc5d178171e083be0a3aacf2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_248f39a572d39415a856eb711eb5d93c.setIcon(icon_98fab68ebc5d178171e083be0a3aacf2);
+        
+    
+            marker_248f39a572d39415a856eb711eb5d93c.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e59eeb3101853d5b342a0b83ec3dbd29 = L.marker(
+                [-8.6569188, 115.1472793],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_123c41412f7378e7b8d657fcc0170790 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_e59eeb3101853d5b342a0b83ec3dbd29.setIcon(icon_123c41412f7378e7b8d657fcc0170790);
+        
+    
+            marker_e59eeb3101853d5b342a0b83ec3dbd29.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4c4cbf7289fe53f0c4d672d17696e5c0 = L.marker(
+                [-8.7130281, 115.1678157],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_5b315debefaac56a18b931392d83304e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_4c4cbf7289fe53f0c4d672d17696e5c0.setIcon(icon_5b315debefaac56a18b931392d83304e);
+        
+    
+            marker_4c4cbf7289fe53f0c4d672d17696e5c0.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cdf43f6f08a3d210e9d8fede80c0bbc3 = L.marker(
+                [-8.8049722, 115.1593669],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_8264e9b65c7029e5ffc7c5a1bc2342af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_cdf43f6f08a3d210e9d8fede80c0bbc3.setIcon(icon_8264e9b65c7029e5ffc7c5a1bc2342af);
+        
+    
+            marker_cdf43f6f08a3d210e9d8fede80c0bbc3.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_abf5be51ce22756cec1677d9bdb35ab8 = L.marker(
+                [-8.8195158, 115.1525888],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_285f2552c21ef31c258434b2a6298a8a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_abf5be51ce22756cec1677d9bdb35ab8.setIcon(icon_285f2552c21ef31c258434b2a6298a8a);
+        
+    
+            marker_abf5be51ce22756cec1677d9bdb35ab8.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_edcfe81f6a42bdf6d76ea4765f6b239a = L.marker(
+                [-8.5384744, 115.3953434],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_b8bb46f159cd13d5cf6bd836a2aba0f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_edcfe81f6a42bdf6d76ea4765f6b239a.setIcon(icon_b8bb46f159cd13d5cf6bd836a2aba0f2);
+        
+    
+            marker_edcfe81f6a42bdf6d76ea4765f6b239a.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7265bec7376dbeb6c71dc414bed62543 = L.marker(
+                [-8.6964209, 115.2637292],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_372ef1dc601afb69bc03a186390dc583 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_7265bec7376dbeb6c71dc414bed62543.setIcon(icon_372ef1dc601afb69bc03a186390dc583);
+        
+    
+            marker_7265bec7376dbeb6c71dc414bed62543.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_846672bdf09e8a03c0e2d08ab265146e = L.marker(
+                [-8.8184613, 115.1536713],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_04cfecec36e6a6de9b4b2c7a7000aec1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_846672bdf09e8a03c0e2d08ab265146e.setIcon(icon_04cfecec36e6a6de9b4b2c7a7000aec1);
+        
+    
+            marker_846672bdf09e8a03c0e2d08ab265146e.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5932a04c532af42678c4fb0fa0d39a14 = L.marker(
+                [-8.806942, 115.1588143],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_449e0a71f94b1d16eecc137b29639009 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_5932a04c532af42678c4fb0fa0d39a14.setIcon(icon_449e0a71f94b1d16eecc137b29639009);
+        
+    
+            marker_5932a04c532af42678c4fb0fa0d39a14.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9156ee287295f1e12bd74332832739c1 = L.marker(
+                [-8.5810021, 115.2777724],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_d888f00cada826f65cb7003386855c94 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_9156ee287295f1e12bd74332832739c1.setIcon(icon_d888f00cada826f65cb7003386855c94);
+        
+    
+            marker_9156ee287295f1e12bd74332832739c1.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1df8c5e9a78387efae6273200252113a = L.marker(
+                [-8.7116432, 115.1769645],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_2b08ef5158d139678dcc3e1bb74e4d69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_1df8c5e9a78387efae6273200252113a.setIcon(icon_2b08ef5158d139678dcc3e1bb74e4d69);
+        
+    
+            marker_1df8c5e9a78387efae6273200252113a.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fce1f1ffdce6d0ad02d440a4113a2fac = L.marker(
+                [-8.6068971, 115.2528633],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_1412f6269f835c59a8739bf96550bf66 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_fce1f1ffdce6d0ad02d440a4113a2fac.setIcon(icon_1412f6269f835c59a8739bf96550bf66);
+        
+    
+            marker_fce1f1ffdce6d0ad02d440a4113a2fac.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0797005ba86c6c081f66882f17ee7756 = L.marker(
+                [-8.5280812, 115.2462088],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_e7d23c3f7e7eb5592dc4fe7727613637 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_0797005ba86c6c081f66882f17ee7756.setIcon(icon_e7d23c3f7e7eb5592dc4fe7727613637);
+        
+    
+            marker_0797005ba86c6c081f66882f17ee7756.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_55bda3dd3be1610cf0f9e1d4e85ec249 = L.marker(
+                [-8.7246414, 115.1742858],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_9a5d7ec01124f0fdf06501b340fb515f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_55bda3dd3be1610cf0f9e1d4e85ec249.setIcon(icon_9a5d7ec01124f0fdf06501b340fb515f);
+        
+    
+            marker_55bda3dd3be1610cf0f9e1d4e85ec249.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_876ac3a19e4ab63e481429c55fde8c70 = L.marker(
+                [-8.6458405, 115.1620173],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_2c6b3037a3764169e5fa6690f4b2debd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_876ac3a19e4ab63e481429c55fde8c70.setIcon(icon_2c6b3037a3764169e5fa6690f4b2debd);
+        
+    
+            marker_876ac3a19e4ab63e481429c55fde8c70.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_63ba7b5bc36446cdbff57ae7fc3ce9ff = L.marker(
+                [-8.6586616, 115.1398895],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_12ae2341fedf62ed20f1e35d0621ce4a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_63ba7b5bc36446cdbff57ae7fc3ce9ff.setIcon(icon_12ae2341fedf62ed20f1e35d0621ce4a);
+        
+    
+            marker_63ba7b5bc36446cdbff57ae7fc3ce9ff.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ee0fbd30db8625e4d8d4dffd4bfca328 = L.marker(
+                [-8.5088419, 115.2680914],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_2c7ba28e6a86c0fd902abc3951d65641 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_ee0fbd30db8625e4d8d4dffd4bfca328.setIcon(icon_2c7ba28e6a86c0fd902abc3951d65641);
+        
+    
+            marker_ee0fbd30db8625e4d8d4dffd4bfca328.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f2ec4dd00f790bddbe10d1d20ac062a7 = L.marker(
+                [-8.6288222, 115.1497017],
+                {}
+            ).addTo(feature_group_489d32bb389ca4e1286a8f4b3cd52dfb);
+        
+    
+            var icon_bdfc18b02272401d0dbb909492b60b10 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_f2ec4dd00f790bddbe10d1d20ac062a7.setIcon(icon_bdfc18b02272401d0dbb909492b60b10);
+        
+    
+            marker_f2ec4dd00f790bddbe10d1d20ac062a7.bindTooltip(
+                `<div>
+                     pharmacy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var layer_control_3eb4d60f41fd918ef9f6ea4087293998 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_dd8e85345f05fe11c21b0297dc892599,
+                },
+                overlays :  {
+                    "clinic" : feature_group_ec5470b9b906cabc32ec448390b9c4e1,
+                    "dentist" : feature_group_83c3b141239c6905797c82d0de9909f6,
+                    "doctors" : feature_group_d6c0d7a101581a2f95e3f2e1e1dd240d,
+                    "hospital" : feature_group_2d5607b00dcd696edf34036641561bd6,
+                    "pharmacy" : feature_group_489d32bb389ca4e1286a8f4b3cd52dfb,
+                },
+            };
+            L.control.layers(
+                layer_control_3eb4d60f41fd918ef9f6ea4087293998.base_layers,
+                layer_control_3eb4d60f41fd918ef9f6ea4087293998.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_2f1d7d5270562b3b957f8db9d74f76f3);
+        
+</script>
