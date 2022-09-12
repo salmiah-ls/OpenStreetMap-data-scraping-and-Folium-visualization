@@ -1,4 +1,4 @@
-## Data Scraping from OpenStreetMap (OSM) and Visualization with Folium
+## OpenStreetMap (OSM) Data Scraping and Folium Visualization
 
 This repository contains tutorial how to collect (scrap) data from OpenStreetMap (OSM) and visualize the data using Folium in Jupyter Notebook (Python).
 
