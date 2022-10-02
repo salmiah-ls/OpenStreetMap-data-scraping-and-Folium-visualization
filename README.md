@@ -11,4 +11,4 @@ I collect data of medical facilities (hospital, clinic, doctors, dentist, and ph
 Example of query searching [**'doctors in Bali'** in OpenStreetMap](https://www.openstreetmap.org/search?query=doctors%20in%20Bali#map=10/-8.4479/115.1216).
 
 ### Preview of Output
-Since **github** can't render html page correctly, preview of this code can be seen [here](https://sites.google.com/view/salmiahls/bali)
+Since **github** can't render html page correctly, preview of this code can be seen [here](https://sites.google.com/view/salmiahls/bali).
