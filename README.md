@@ -15,4 +15,4 @@ There are 2 output files from this project:
 1. A [CSV file](https://github.com/salmiah-ls/OpenStreetMap-data-scraping-and-Folium-visualization/blob/master/list_medical.csv) contains data of medical faciluties in Bali.
 2. An [HTML page](https://github.com/salmiah-ls/OpenStreetMap-data-scraping-and-Folium-visualization/blob/master/Bali_medical_facilities.html) contains map for visualizing the data.
 
-Since **github** can't render html page correctly, final output of this code I save in my blog [here](https://sites.google.com/view/salmiah-ls/bali).
+Since **github** can't render html page correctly, I put the final output of this code in my blog [here](https://sites.google.com/view/salmiah-ls/bali).
