@@ -11,10 +11,10 @@ Link to `folium`: https://python-visualization.github.io/folium/
 In this repository, I collected data of medical facilities (hospital, clinic, doctors, dentist, and pharmacy) in Bali province, Indonesia. The data contains 4 atrributes: name of the medical facility, type, and coordinates in latitude and longitude. The scraped data was saved in a csv file and then displayed in simple html page. All the code was done in Jupyter Notebook (Python).
 
 ## Area of Interest: Bali Province, Indonesia
-<img src=Bali.png>
+<img src=Bali.png width='800'>
 
 ### List of doctors in Bali in OpenStreetMap (OSM)
-Example of query searching [**'doctors in Bali'** in OpenStreetMap](https://www.openstreetmap.org/search?query=doctors%20in%20Bali#map=10/-8.4479/115.1216).
+Example of query searching [**'doctors in Bali'** in OpenStreetMap](https://www.openstreetmap.org/search?query=doctor%20in%20Bali#map=10/-8.3732/115.1010).
 
 ### Output
 There are 2 output files from this project:
