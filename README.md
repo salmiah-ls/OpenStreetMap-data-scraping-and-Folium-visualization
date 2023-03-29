@@ -1,10 +1,16 @@
-## OpenStreetMap (OSM) Data Scraping and Folium Visualization
+# OpenStreetMap (OSM) Data Scraping and Folium Visualization
+## OpenStreetMap
+<p align='justify'><b>OpenStreetMap (OSM)</b> is a free, open geographic database updated and maintained by a community of volunteers via open collaboration. Contributors collect data from surveys, trace from aerial imagery and also import from other freely licensed geodata sources.</p>
+Link to OpenStreetMap: https://www.openstreetmap.org/
 
-This repository contains tutorial how to collect (scrap) data from OpenStreetMap (OSM) and visualize the data using Folium in Jupyter Notebook (Python).
+## Folium
+<p align='justify'>`folium` builds on the data wrangling strengths of the Python ecosystem and the mapping strength of the `leaflet.js` library. Manipulate data with Python, the visualize it on a Leaflet map via `folium`.</p>
+Link to `folium`: https://python-visualization.github.io/folium/
 
-I collect data of medical facilities (hospital, clinic, doctors, dentist, and pharmacy) in Bali province, Indonesia. The data contains name of the medical facility, type, and coordinates in latitude and longitude. The scraped data is saved in a csv file and then displayed in simple html page. All the code was done in Jupyter Notebook (Python).
+## Concept
+In this repository, I collected data of medical facilities (hospital, clinic, doctors, dentist, and pharmacy) in Bali province, Indonesia. The data contains 4 atrributes: name of the medical facility, type, and coordinates in latitude and longitude. The scraped data was saved in a csv file and then displayed in simple html page. All the code was done in Jupyter Notebook (Python).
 
-### Area of Interest: Bali Province, Indonesia
+## Area of Interest: Bali Province, Indonesia
 <img src=Bali.png>
 
 ### List of doctors in Bali in OpenStreetMap (OSM)
