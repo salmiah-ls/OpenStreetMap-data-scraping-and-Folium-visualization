@@ -6,7 +6,7 @@ Link to OpenStreetMap:
 <li> Wiki: https://wiki.openstreetmap.org/</li>
 
 ## Folium
-`folium` builds on the data wrangling strengths of the Python ecosystem and the mapping strength of the `leaflet.js` library. Manipulate data with Python, the visualize it on a Leaflet map via `folium`.
+`folium` builds on the data wrangling strengths of the Python ecosystem and the mapping strength of the `leaflet.js` library. Manipulate data with Python, then visualize it on a Leaflet map via `folium`.
 Link to `folium`:
 <li>https://python-visualization.github.io/folium/</li>
 <li>https://pypi.org/project/folium/</li>
