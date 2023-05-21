@@ -26,7 +26,7 @@ Visualize the area of interest with library `folium`:<br />
 I use 3 libraries for scraping data:
 - ` pandas ` for manipulating and analyzing data,
 - ` requests ` to make and process HTTP requests,
-- ` json ` to parse JSON into Python dictionary or list.
+- ` json ` to parse JSON into dictionary or list.
 
 API link for OpenStreetMap: `http://overpass-api.de/api/interpreter`
 
