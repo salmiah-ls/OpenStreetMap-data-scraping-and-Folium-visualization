@@ -15,20 +15,29 @@ Link to `folium`:
 In this repository, I collect data of medical facilities (hospital, clinic, doctor, dentist, and pharmacy) in Bali province, Indonesia. The data contains 4 atrributes: name of the medical facility, type, and coordinates in latitude and longitude. The scraped data is saved in a csv file and then displayed in simple html page. All the code is done in Jupyter Notebook (Python).
 
 ## Area of Interest: Bali Province, Indonesia
-This is area of interest:<br />
-<img src="https://github.com/salmiah-ls/OpenStreetMap-data-scraping-and-Folium-visualization/blob/master/images/Bali.png" width="800">
+Visualize the area of interest with library `folium`:<br />
+<img src="https://github.com/salmiah-ls/OpenStreetMap-data-scraping-and-Folium-visualization/blob/master/images/Bali.png" width="800"></img><br /><br />
 
-### List of doctors in Bali in OpenStreetMap (OSM)
-This is example of query result if we search keyword "hospital in Bali" in OpenStreetMap:
-<img src="https://github.com/salmiah-ls/OpenStreetMap-data-scraping-and-Folium-visualization/blob/master/images/search_result.png" width="600"></img>
+## Scraping data from OpenStreetMap (OSM)
+- Search keyword "hospital in Bali" in OpenStreetMap will result like this:
+<img src="https://github.com/salmiah-ls/OpenStreetMap-data-scraping-and-Folium-visualization/blob/master/images/search_result.png" width="600"></img><br /><br />
 
-### Python Code
-For scraping data, I use 3 libraries:
+### Libraries, API and Query
+I use 3 libraries for scraping data:
 - ` pandas ` for manipulating and analyzing data,
 - ` requests ` to make and process HTTP requests,
 - ` json ` to parse JSON into Python dictionary or list.
 
-For visualization, I use library [` folium `](https://github.com/salmiah-ls/OpenStreetMap-data-scraping-and-Folium-visualization#folium).
+API link for OpenStreetMap: `http://overpass-api.de/api/interpreter`
+
+Query for searching medical-facilities in Bali, Indonesia:
+```
+[out:json];
+(area['name:id'='Provinsi Bali'];
+node[amenity~'(clinic|dentist|doctors|hospital|pharmacy)'](area);
+);
+out;
+```
 
 ### Output
 There are 2 output files from this project:
