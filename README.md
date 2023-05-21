@@ -12,7 +12,7 @@ Link to `folium`:
 <li>https://pypi.org/project/folium/</li>
 
 ## Concept
-In this repository, I collect data of medical facilities (hospital, clinic, doctor, dentist, and pharmacy) in Bali province, Indonesia. The data contains 4 atrributes: name of the medical facility, type, and coordinates in latitude and longitude. The scraped data is saved in a csv file and then displayed in simple html page. All the code is done in Jupyter Notebook (Python).
+In this repository, I collect data of medical facilities (hospital, clinic, doctor, dentist, and pharmacy) in Bali province, Indonesia. The data contains 4 atrributes: name of the medical facility, type, and coordinates in latitude and longitude. The scraped data is saved in a csv file and then displayed in simple html page.
 
 ## Area of Interest: Bali Province, Indonesia
 Visualize the area of interest with library `folium`:<br />
