@@ -19,8 +19,9 @@ Visualize the area of interest with library `folium`:<br />
 <img src="https://github.com/salmiah-ls/OpenStreetMap-data-scraping-and-Folium-visualization/blob/master/images/Bali.png" width="800"></img><br /><br />
 
 ## Scraping data from OpenStreetMap (OSM)
-- Search keyword "hospital in Bali" in OpenStreetMap will result like this:
+If we search keyword `"hospital in Bali"` in OpenStreetMap, the result will be like this:
 <img src="https://github.com/salmiah-ls/OpenStreetMap-data-scraping-and-Folium-visualization/blob/master/images/search_result.png" width="600"></img><br /><br />
+Here, I will collect data of medical facilities consisting clinics, dentists, doctors, hospitals, and pharmacies.
 
 ### Libraries, API and Query
 I use 3 libraries for scraping data:
